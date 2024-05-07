@@ -8,16 +8,16 @@
 
 
 - :file_folder:FLDSMDFR:
-- TOOLS: "FLDSMDFR"
 - La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de "110" tools  recopila una cantidad importante de herramientas RECON_PASSIVO Y ACTIVO, FUZZIN entre muchas 
   otras todas estas herramientas juntas en una sola , posibilitando al Auditor tener la facilidad y simplicidad de la automatizacion FLDSMDFR "ahorrando tiempo".<br>
 - Solamente se necesita 2 entradas input te pedira "1-ESCRIBIR EL TARGET" "2-NOMBRE DE LA EMPRESA"
--  <br>
+<br>
 
 +[DOCUMENTACÌON](Open_Redirect)<br>
 +[INSTALACÌON](worlist_comando_inyections)<br>
 +[VIDEO_DEMOSTRACION](evasion_waf)<br>
 +[VIDEO_YOUTUBE_INSTALACION_COMPLETA_DESDE_0](YOUTUBE)<br>
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">"ESPERO QUE ESTE REPOSITORIO  FUESE DE TU AGRADO , TE MANDO UN SALUDO GRANDE"<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
