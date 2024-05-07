@@ -15,7 +15,7 @@
   BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"
   <br>
     <br>
-+[DOCUMENTACION:](Open_Redirect)<br>
++[DOCUMENTACION:](DOCUMENTACION.md)<br>
 +[LOGICA_TOOLS:](worlist_comando_inyections)<br>
 +[INSTALACION_CONFIGURACION:](evasion_waf)<br>
 +[CANAL_YOUTUBE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)<br>
