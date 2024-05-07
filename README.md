@@ -14,6 +14,7 @@
 - Solamente necesitaras 4 entradas , te pedira : "1-ESCRIBIR TARGET" "2-NOMBRE DE LA EMPRESA" "3-SE ABRIRA A FINAL DEL SCRYPT GOOGLE_DORKS.HTML INGRESAR TARGET" OPCIONAL "SE ABRRIRA 
   BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"
   <br>
+    <br>
 +[DOCUMENTACION:](Open_Redirect)<br>
 +[LOGICA_TOOLS:](worlist_comando_inyections)<br>
 +[INSTALACION_CONFIGURACION:](evasion_waf)<br>
