@@ -11,7 +11,7 @@
 - La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de "110" TOOLS.
 - Recopila una cantidad importante de informacion  de distintas  herramientas RECON_PASSIVO Y ACTIVO, FUZZIN entre otras .
 - Todas estas herramientas juntas en una sola , posibilitando al Auditor tener la facilidad y simplicidad de la automatizacion con FLDSMDFR "ahorrando tiempo" == "productividad".<br>
-- Solamente se necesita 4 entradas ,  te pedira "1-ESCRIBIR EL TARGET" "2-NOMBRE DE LA EMPRESA" "3-AL FINAL DEL SCRYPT SE TE ABRIRA GOOGLE_DORKS.HTML INGRESAR TARGET" "OPCIONAL" "4-BIG_BOUNTY_RECON INGRESAR TARGET "58" TOOLS"
+- Solamente se necesita 4 entradas ,  te pedira "1-ESCRIBIR EL TARGET" "2-NOMBRE DE LA EMPRESA" "3-AL FINAL DEL SCRYPT SE TE abrirá GOOGLE_DORKS.HTML INGRESAR TARGET" "OPCIONAL" "4-BIG_BOUNTY_RECON INGRESAR TARGET "58" TOOLS"
 <br>
 
 +[LOGICA_DE_FLDSMDFR](Open_Redirect)<br>
