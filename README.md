@@ -1,13 +1,13 @@
 <h1 align="center"><img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"><img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif">" Saludos , Haz llegado a la Cueva de Aquiles369 " <img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif"> <img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"> <img height="35" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 
-"Youtube"
+"FLDSMDFR"
 </h1>
 </p>
 <br>
 
 
-- :file_folder:Youtube:
-- https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg
+- :file_folder:FLDSMDFR:
+- TOOLS: "FLDSMDFR"
 <br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
@@ -19,4 +19,4 @@
  
 
 
-# FLDSMDFR
+
