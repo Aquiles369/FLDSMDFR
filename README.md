@@ -1,17 +1,22 @@
 <h1 align="center"><img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"><img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif">" Saludos , Haz llegado a la Cueva de Aquiles369 " <img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif"> <img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"> <img height="35" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 
  " FLDSMDFR  "<br>
- "antes de todo mirar obligatoriamente super recomendado nombre tools https://www.youtube.com/watch?v=oyy7_9ZM97I "
+ antes de todo mirar obligatoriamente super recomendado nombre tools https://www.youtube.com/watch?v=oyy7_9ZM97I
 </h1>
 </p>
 <br>
   
-- :file_folder:Bug Bounty:
+- :file_folder:FLDSMDFR:
 - Varios archivos:
-- Es conjunto de muchos temas , que van tanto de imagenes ISo varias muy recomendadas con instalación , Metdologias varias , OWASP COMPLETO TOP 10 TODOS LOS AÑOS , Reconocimiento Pasivo activo , Explotacion muchas  Cargas útiles , Google Hacking   Shodan  Censys , Bypass de Proxy inverso mal configurado , Waf , evasion de ip de origen  , XSS , SQL y NOSQL , SSRF , CSRF , DOBLE AUTENTICACION , JSON ,Ajax, LFI-RFI , ROBOTS.TXT , Redirrecionamiento , 403-302 , APIS , AUTENTICACION , Control de acceso roto,   INJECTIONS , PATH TRANVERSAL , C2 descentralizado mediante LogDrop  , XXE , NOSQL , SSTI , LOGICA EMPRESARIAL , DIVULGACION DE INFORMACION , CORS CLICKJACKING , ADQUISICION DE CUENTAS, BYPASS DE CONTRASEÑAS Y CONTROLES ,OMISION DE PAGOS, RCE , Race Conditions , DOMINIOS INTERNOS , DOM , WEBSOCKETS , Web LLM attacks , Inyección CRLF , INYECCION DE PLATILLA DEL SALDO SERVER , ENVENENAMIENTO CACHE , ENCABESADOS HTTP , JWT , CONTAMINACION PROTOTIPO , AUTENTICACION OAUTH , WordPress ,  INYECCION HTML Y CSS  , AWS , PRIVELEGIO HORIZONTAL Y VERTICAL EXPOSICION DE TOKENS ALATEORIDAD DEBIL , ENUMERACION USARIOS , puertos expuestos , HA PROXY BYPASS ., ENCODING, BYPASSS 401 CABEZERA X-FORWARDER PONIENDO ESO <br>
-+[Open_Redirect](Open_Redirect)<br>
-+[worlist_comando_inyections](worlist_comando_inyections)<br>
-+[evasion_waf](evasion_waf)<br>
+- La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de"110"TOOLS.
+- Recopila una cantidad importante de informacion de distintas herramientas RECON_PASIVO Y ACTIVO , FUZZIN entre otras.
+- Todas estas herramientas juntas en una sola , posibilitando al Auditor la falicidad y simplicidad de la automatizacion con FLDSMDFR "ahorrando tiempo"=="Productividad".
+- Solamente necesitaras 4 entradas , te pedira : "1-ESCRIBIR TARGET" "2-NOMBRE DE LA EMPRESA" "3-SE ABRIRA A FINAL DEL SCRYPT GOOGLE_DORKS.HTML INGRESAR TARGET" OPCIONAL "SE ABRRIRA 
+  BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"<br>
++[DOCUMENTACION:](Open_Redirect)<br>
++[LOGICA_TOOLS:](worlist_comando_inyections)<br>
++[INSTALACION_CONFIGURACION:](evasion_waf)<br>
++[CANAL_YOUTUVE_INSTALACION_0:](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)<br>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
