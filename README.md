@@ -18,7 +18,7 @@
 +[DOCUMENTACION:](Open_Redirect)<br>
 +[LOGICA_TOOLS:](worlist_comando_inyections)<br>
 +[INSTALACION_CONFIGURACION:](evasion_waf)<br>
-+[CANAL_YOUTUVE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)<br>
++[CANAL_YOUTUBE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)<br>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
