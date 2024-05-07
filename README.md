@@ -9,8 +9,8 @@
 
 - :file_folder:FLDSMDFR:
 - TOOLS: "FLDSMDFR"
-- La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de "110"  recopila una cantidad importante de herramientas RECON_PASSIVO Y ACTIVO, FUZZIN entre muchas otras 
-  todas estas herramientas juntas en una sola , posibilitando al Auditor tener la facilidad y simplicidad de la automatizacion FLDSMDFR "ahorrando tiempo".<br>
+- La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de "110" tools  recopila una cantidad importante de herramientas RECON_PASSIVO Y ACTIVO, FUZZIN entre muchas 
+  otras todas estas herramientas juntas en una sola , posibilitando al Auditor tener la facilidad y simplicidad de la automatizacion FLDSMDFR "ahorrando tiempo".<br>
 - Solamente se necesita 2 entradas input te pedira "1-ESCRIBIR EL TARGET" "2-NOMBRE DE LA EMPRESA"
 -  <br>
 
