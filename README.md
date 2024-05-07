@@ -12,7 +12,8 @@
 - Recopila una cantidad importante de informacion de distintas herramientas RECON_PASIVO Y ACTIVO , FUZZIN entre otras.
 - Todas estas herramientas juntas en una sola , posibilitando al Auditor la falicidad y simplicidad de la automatizacion con FLDSMDFR "ahorrando tiempo"=="Productividad".
 - Solamente necesitaras 4 entradas , te pedira : "1-ESCRIBIR TARGET" "2-NOMBRE DE LA EMPRESA" "3-SE ABRIRA A FINAL DEL SCRYPT GOOGLE_DORKS.HTML INGRESAR TARGET" OPCIONAL "SE ABRRIRA 
-  BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"<br>
+  BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"
+  <br>
 +[DOCUMENTACION:](Open_Redirect)<br>
 +[LOGICA_TOOLS:](worlist_comando_inyections)<br>
 +[INSTALACION_CONFIGURACION:](evasion_waf)<br>
