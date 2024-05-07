@@ -1,7 +1,0 @@
-#En caso que no te funcione la FLDSMDFR_general.sh , puede tener encuenta estos posibles casos:
-
-# 1-Dentro de FLDSMDFR_general.sh verificar si las rulas relativas estan corectamente de las tools configurar en el $PATH
-
-# 2-Configurar la ruta relativa de las tools agregar $PATH para que se pueda ejecutar las tools verificar dentro FLDSMDFR_general.sh las ruta .
-
-# 3-Configurar manulmente las rutas absolutas de tus tools ,y agregar las rutas absoluta de tus tools sea donde este , a FLDSMDFR_general.sh remplazar la ruta de la tools a tu ruta absoluta de cada tools .
