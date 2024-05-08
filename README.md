@@ -13,6 +13,7 @@
 - Todas estas herramientas juntas en una sola , posibilitando al Auditor la falicidad y simplicidad de la automatizacion con FLDSMDFR "ahorrando tiempo"=="Productividad".
 - Solamente necesitaras 4 entradas , te pedira : "1-ESCRIBIR TARGET" "2-NOMBRE DE LA EMPRESA" "3-SE ABRIRA A FINAL DEL SCRYPT GOOGLE_DORKS.HTML INGRESAR TARGET" OPCIONAL "SE ABRRIRA 
   BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"
+- Probado en "kali linux o Derivado  de Debian"
   <br>
     <br>
 +[DOCUMENTACION:](DOCUEMENTACION_COMPLETA/DOCUMENTACION)<br>
