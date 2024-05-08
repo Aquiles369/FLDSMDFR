@@ -18,10 +18,9 @@
 <br> 
 
 - :file_folder: "(=={FLDSMDFR}==)" :
-- Varios archivos:
 - La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de"110"TOOLS.
 - Recopila una cantidad importante de informacion de distintas herramientas RECON_PASIVO Y ACTIVO , FUZZIN entre otras.
-- Todas estas herramientas juntas en una sola , posibilitando al Auditor la falicidad y simplicidad de la automatizacion con  "(=={FLDSMDFR}==)" "ahorrando tiempo"=="Productividad".
+- Todas estas herramientas juntas en una sola , posibilitando al Auditor la falicidad y simplicidad de la automatizacion con (=={FLDSMDFR}==) "ahorrando tiempo"=="Productividad".
 - Solamente necesitaras 4 entradas , te pedira : "1-ESCRIBIR TARGET"  <br> "2-NOMBRE DE LA EMPRESA"  <br> "3-SE ABRIRA A FINAL DEL SCRYPT GOOGLE_DORKS.HTML INGRESAR TARGET"   <br>  "4-SE ABRRIRA BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"  <br>
 - Probado en "kali linux o Derivado  de Debian"
 
