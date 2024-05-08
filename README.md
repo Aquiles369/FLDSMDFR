@@ -1,35 +1,11 @@
 <h1 align="center"><img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"><img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif">" Saludos , Haz llegado a la Cueva de Aquiles369 " <img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif"> <img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"> <img height="35" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 
  " FLDSMDFR "<br>
+ <img>
  antes de todo mirar obligatoriamente super recomendado nombre tools https://www.youtube.com/watch?v=oyy7_9ZM97I
- .......'..........................       .od;..;;l0x.  ..'''.......        
-....................                     'do;..'';d0c.   .............     
-  ...                           .........;c:lo:,,,;oo,'.    ..,,,'......   
-.                             .cddlcccc:;:;,:l:;,..,:;,'..,coxkOkxl;'....  
-                           ..'llcc:;,'....',co:;'..'cdl::lxO0OkO0KK0d;...  
-            ....    ...... .,do;,:cc:,'..''.,ldl,'..:l,,cox0XX0O0NNK0kc.   
-  ..        .....   .      .ldlcdkkkxdl,,''..';:,.....';ccokKK0OkKXK0K0l'  
-           .....           .;c:;cxkkkko,..',....'.....,lddolxkxkxxO0O0N0l. 
-  .   ....           .... ......';:::c;.  .','.......':dO0Odlox0Ok0XOk0K0; 
- ...             ..  ......'.  ..''..'...  ..........':dOOdodloO0k0KOkO00: 
-           ...............',........',,'.  .....''....';ldocoxookkkOkOKK0: 
-      ... ..............',cc;;........''.......... .....';codxxllddxkO0O0c 
- ......................';:c,;:'     ........     .  ...';lc;;cdd:;ldxxk0Kc 
-..................  .....',',:,.    .......             .;ddc:;;,,cdkkx0K: 
-................       ..........   .......               'lll:,.';ckOxO0: 
-......     ......      ......      .'...            .,.   .,:;;'..'';ooxO: 
-.....       .....      .......     .,'..            ..  .''';,,'..,,:lldk: 
-  ....      .....      ...',;'.    .;'.....             .'',:::,..':llloo, 
-  ....      ......     ...',;;.    .;,,;:;'..           ...;:;,'...,::cdd, 
-  .....     ......     ...',:;.    .clllc;,,'.       .  ..','.'',',,,;:ox; 
-  .....     ......     ...',;;.    .o0ko:;;;;'..    ..........'''';;:llcc' 
-  .....     .......    ....',,.     ;doc;;;,;'...  ........''.''.,;,;lc;l; 
- .......   .........  .........     ....................................;, 
-',..',..',...,,'..',,..'..'.'....'.','..'.'..,,'...',...,,'.............'. 
-cdc:do',ld:.;ll:,c:',':c.,c:c;..,c;cdo::l;c::l,:c',ldc.:l,:c'............. 
-cllllc;cc:l;,cll;::,,',c;:c;cc,';c;cc';ol;c::l;:c;cc:l;:l;::............   
-''','',,..''';;,..,;,..';;'.,;;,''.''..,,.''';;,..'..',,;;,......,,'cll.   
-</h1>
+
+</h1>![Captura-de-pantalla-2024-03-20-230342](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/51645b13-f87f-46c7-8c4e-13244dd4bcb8)
+
 </p>
 <br>
 
