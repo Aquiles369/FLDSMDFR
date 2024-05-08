@@ -5,3 +5,5 @@
 # 2-Configurar la ruta relativa de las tools agregar $PATH para que se pueda ejecutar las tools verificar dentro FLDSMDFR_general.sh las ruta .
 
 # 3-Configurar manulmente las rutas absolutas de tus tools ,y agregar las rutas absoluta de tus tools sea donde este , a FLDSMDFR_general.sh remplazar la ruta de la tools a tu ruta absoluta de cada tools .
+
+# 4-Configurar bien las rutas relativas en la tools de nucleifuzzin. 
