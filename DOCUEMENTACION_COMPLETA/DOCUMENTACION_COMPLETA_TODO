@@ -11,7 +11,7 @@
 #sudo apt-get install dig
 
 # LUEGO de install golang hacer esto facilita todo campeon: 1-PONER ESO  export GORDOT=/usr/local/go  2-PONER ESO:  export GORPATH=$HOME/go  3-PONER ESO: export PATH=$GORPATH/bin:GOROOT/bin:$HOME/.local/bin:$PATH
-# ESTO SE HACE  ya que cuando intruduces eso en tu terminal shell etc, los 3 pasos , permite que las Aplicaciones "ejecutables de cualquier tools echa en go se puede usar con su ruta relativa , maquina es decir ejemplo: si antes ponias nuclei sin hacer estos pasas no funcionaba tenia que poder la ruta absoluta , ahora con estos 3 pasos ya echo podes poner nuclei y cualquier tools echo en go te funciona crack , maquina de nada arme un scrypt que se llama configuracion_golan.sh ejecuta eso y listo mas sencillo imposible "no te olvides de darle Permiso chmod +x configuracion_golan.sh y listo luego lo ejecutas ./configuracion_golan.sh  
+# ESTO SE HACE  ya que cuando intruduces eso en tu terminal shell etc, los 3 pasos , permite que las Aplicaciones "ejecutables de cualquier tools echa en go se puede usar con su ruta relativa , maquina es decir ejemplo: si antes ponias nuclei sin hacer estos pasas no funcionaba tenia que poner la ruta absoluta , ahora con estos 3 pasos ya echo podes poner nuclei y cualquier tools echo en go te funciona crack , maquina de nada arme un scrypt que se llama configuracion_golan.sh ejecuta eso y listo mas sencillo imposible "no te olvides de darle Permiso chmod +x configuracion_golan.sh y listo luego lo ejecutas ./configuracion_golan.sh  
 
 
 #Para ejecutar las tools echa en python con sus rutas relativas ejemplo: CMS . no te va dejar ya que tenes que poner la ruta absoluta del ejecutable . para solucionar esto tenes que seguir estos pasos: mas facil ejecutar el scrypt  que arme para vos mi rey , se llama configuracion_python.sh "no te olvides de darle Permiso chmod +x  configuracion_python.sh y listo luego lo ejecutas maquina ./configuracion_python.sh"
@@ -25,11 +25,11 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-#Si queires usar la opcion tanto de seactexploit como ffuf y BigBountyRecon estan desactivadas por defaul. Debes de sacar la # en la tools mediante nano o el editor que tengas ejemplo nano FLDSMDFR_general.sh  
+#Si queires usar la opcion tanto de SearchSploit como ffuf y BigBountyRecon estan desactivadas por defaul. Debes de sacar la # en la tools mediante nano o el editor que tengas ejemplo nano FLDSMDFR_general.sh  
 #Para usar ffuf tiene que poner la ruta absulta donde se encuentra la worlist , ejemplo home/pepe/Documents/worlist.txt esto tenes que modificar al scrypt nano FLDSMDFR_general.sh  y poner la ruta absoluta de tu worlist 
 #Para utilizar BigBountyRecon debes de descargar lo mencionado anterior wine:i386 configurarlo bien y editar el scrypt nano FLDSMDFR_general.sh  se encuentra al ultimo sacar # 
 
-#La tools  "nucleiFuzzin" ver las rutas relativa en nano /usr/bin/nf verificar si esta correctamente la ruta relativa de las tools httpx , nuclei , ParamSpider , sino modificar poniendo las rutas absolutas de las tools mencionaes anteriormente en las rutas ver scrypt /usr/bin/nf/usr/bin/nf
+#La tools  "nucleiFuzzin" ver las rutas relativa en nano /usr/bin/nf verificar si esta correctamente la ruta relativa de las tools httpx , nuclei , ParamSpider , sino modificar poniendo las rutas absolutas de las tools mencionaes anteriormente en las rutas ver scrypt: nano  /usr/bin/nf/
 
 
 ------------------------------------------------------------------------------------------------------------------------------
