@@ -3,7 +3,7 @@
 <br>"(*==========={FLDSMDFR}=============*)"<br>
 <img>![nombre](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/0f86d048-5100-40a5-a319-bda11b5c2f3d)</img> 
 <img> ![hexa](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/e90bfbc5-20fc-4df8-b795-889158e91d3b)</img> 
- <br><img> ![Captura-de-pantalla-2024-03-20-230342](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/c5348037-7378-48c6-8276-ffcf3424b380) </img><br>
+ <br><img> ![Captura-de-pantalla-2024-03-20-230342 (1)](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/8e25fb73-9110-4e17-9615-f1bfd374ea5a)</img><br>
  
  antes de todo mirar obligatoriamente super recomendado nombre tools https://www.youtube.com/watch?v=oyy7_9ZM97I
 
