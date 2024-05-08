@@ -1,10 +1,9 @@
 <h1 align="center"><img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"><img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif">" Saludos , Haz llegado a la Cueva de Aquiles369 " <img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif"> <img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"> <img height="35" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 
-
-<img>![nombre](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/0f86d048-5100-40a5-a319-bda11b5c2f3d)</img> 
 <br>"(*==========={FLDSMDFR}=============*)"<br>
+<img>![nombre](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/0f86d048-5100-40a5-a319-bda11b5c2f3d)</img> 
 <img> ![hexa](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/e90bfbc5-20fc-4df8-b795-889158e91d3b)</img> 
- <br><img> ![Captura-de-pantalla-2024-03-20-230342 (1)](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/8e25fb73-9110-4e17-9615-f1bfd374ea5a)</img><br>
+ <br><img> ![Captura-de-pantalla-2024-03-20-230342 (2)](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/129a1c64-5963-4cc3-8b29-c700af3e2a0b)</img><br>
  
  antes de todo mirar obligatoriamente super recomendado nombre tools https://www.youtube.com/watch?v=oyy7_9ZM97I
 
