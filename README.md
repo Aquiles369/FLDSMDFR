@@ -22,8 +22,10 @@
 - Probado en "kali linux o Derivado  de Debian"
   <br>
  <p align="center">
-<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
+   <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
   </p>
+<br>
 +[DOCUMENTACION:](DOCUEMENTACION_COMPLETA/DOCUMENTACION)<br>
 +[LOGICA_TOOLS:](DOCUEMENTACION_COMPLETA/LOGICA.txt)<br>
 +[INSTALACION_CONFIGURACION:](DOCUEMENTACION_COMPLETA/INSTALACION_CONFIGURACION.txt)<br>
