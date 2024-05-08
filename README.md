@@ -15,7 +15,8 @@
  <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
   </p>
-<br>
+<br> 
+
 - :file_folder:FLDSMDFR:
 - Varios archivos:
 - La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de"110"TOOLS.
@@ -24,6 +25,7 @@
 - Solamente necesitaras 4 entradas , te pedira : "1-ESCRIBIR TARGET" "2-NOMBRE DE LA EMPRESA" "3-SE ABRIRA A FINAL DEL SCRYPT GOOGLE_DORKS.HTML INGRESAR TARGET" OPCIONAL "SE ABRRIRA 
   BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"
 - Probado en "kali linux o Derivado  de Debian"
+
   <br>
 
 +[DOCUMENTACION:](DOCUEMENTACION_COMPLETA/DOCUMENTACION)<br>
