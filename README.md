@@ -1,10 +1,10 @@
 <h1 align="center"><img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"><img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif">" Saludos , Haz llegado a la Cueva de Aquiles369 " <img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif"> <img height="40" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true"> <img height="35" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 
  " FLDSMDFR "<br>
- <img>
+ <img ![Captura-de-pantalla-2024-03-20-230342](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/51645b13-f87f-46c7-8c4e-13244dd4bcb8) >
  antes de todo mirar obligatoriamente super recomendado nombre tools https://www.youtube.com/watch?v=oyy7_9ZM97I
 
-</h1>![Captura-de-pantalla-2024-03-20-230342](https://github.com/Aquiles369/FLDSMDFR/assets/160543861/51645b13-f87f-46c7-8c4e-13244dd4bcb8)
+</h1>
 
 </p>
 <br>
