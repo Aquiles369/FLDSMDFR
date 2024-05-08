@@ -33,9 +33,9 @@
 +[CANAL_YOUTUBE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)
 <br>
 
-
+<h2>
 <br>"(*==========={FLDSMDFR}=============*)"<br>
-
+</h2>
 <br>
  <h3>¿QUE ES LO QUE LE HACE UNICA EN SU CAMPO? </h3>
 <br>
