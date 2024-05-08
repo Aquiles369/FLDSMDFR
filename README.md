@@ -95,7 +95,7 @@
 <br>
 ___TODAS LAS TOOLS MENCIONADAS GUARDAN SUS RESULTADOS EN EL DIRECTORIO ACTUAL EJEMPLO: resultados-$target 
 Todo los resultados se encuetran en esa carpeta contiene todos los archivos de todas las tools en formato ".txt" cada tools que se ejecuta  se aplica una limpieza  , es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente con ese resultado  pasa a las demas tools asi sucesivamente.<br> 
-______Cada tools ejecutadada ,  se muestra el resultado___ 
+______Cada tools ejecutadada ,  muestra el resultado_____
 
 
   
