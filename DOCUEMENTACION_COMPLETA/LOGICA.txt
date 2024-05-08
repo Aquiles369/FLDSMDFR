@@ -2,6 +2,7 @@
 #asn
 #waff
 #webcheck
+#CMS escaner target
 #scribd
 #buckest
 #postman
@@ -43,6 +44,7 @@
 #nmap de los subdomain vivos
 #lynx es un navegador por consola "interesante "
 #extrae todos los link del target con curl
+#CMS escaner lista de subdomain vivos.txt
 #nuclei recon target
 #nucleiFUzzin target
 #nuclei -u posibles vuln target
