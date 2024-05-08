@@ -40,31 +40,31 @@
  <h3>¿QUE ES LO QUE LE HACE UNICA EN SU CAMPO? </h3>
 <br>
 
-- :file_folder: Es unica en su campo ya cuenta con mas de 110 tools todas en una sola herramienta trabajando conjuntamente entre si , facilitando la automatizacion de diversas fases de Recon , Fuzzin , Explotacion , teniendo en cuenta que se utiliza los mejores comandos para sacar el maximo potencial a cada tools , todo orientado al  bug bounty , sabiendo esto tambien se tuvo en cuenta mandar los resquest menos posibles en diferentes tools , como nuclei , nucleiFuzzin  y muchas mas a continuacion se enumera las tools utilizadas en la herramienta (=={FLDSMDFR}==):<br>
+- :file_folder: Es unica en su campo ya cuenta con mas de 110 tools todas en una sola herramienta trabajando conjuntamente entre si , facilitando la automatizacion de diversas fases de Recon , Fuzzin , Explotacion , teniendo en cuenta que se utiliza los mejores comandos para sacar el maximo potencial a cada tools , todo orientado al  bug bounty , sabiendo esto tambien se tuvo en cuenta mandar las resquest menos posibles en diferentes tools , como nuclei , nucleiFuzzin  y muchas mas a continuacion se enumera las tools utilizadas en la herramienta (=={FLDSMDFR}==):<br>
 - #####################################		TOOLS UTILIZADAS	#######################################<br>
 
-- viewdns.info :("SACA LA IP VERDADERA SI ES POSIBLE ,INGRESAR AL LINK Y VER LA ultima  IP ANTES QUE CAMBIE CON EL WAFF ")<br> 
+- viewdns.info :("SACA LA IP VERDADERA SI ES POSIBLE ,INGRESAR AL LINK Y VER LA ultima  IP ANTES DEL CAMBIO DE IP CON EL WAFF ")<br> 
 - bgp.he.net :("TE MUESTRA LOS ASN , DEL TARGET PODES SACAR EL ASN Y LUEGO UTILIZARLO EN LA TOOLS amass posteriormente")<br> 
 - wafw00f :("UTILIZA LA TOOLS PARA SACAR EL WAFF DEL TARGET")<br> 
 - cmseek :("ESTA TOOLS DETECTA MAS DE 170 CMS ADEMAS EXPLOTA ALGUNAS VULN ,Y RECORRE DORECTORIOS")<br> 
 - web-check.yxz :("HACE MUCHOS RECON MUY INTERESANTE YA QUE SERIA UN RECON PASIVO")<br> 
-- es.scribd.com :("AQUI PODRIAS ENCONTRAR ARCHIVOS CONFEIDENCIALES , SECRETOS , KEY ETC")<br> 
+- es.scribd.com :("AQUI PODRIAS ENCONTRAR ARCHIVOS CONFIDENCIALES , SECRETOS , KEY ETC")<br> 
 - buckest.grahatwarfare.com :("BUSCA ARCHIVOS AWS BUCKEST ETC")<br>
 - postman.com :("BUSCA SI ESTA PUBLICO REQUIERE MAS CONOCIMIENTO Y MAS ACCIONES MANULES INGRESAR Y ANALIZAR")<br> 
 - Gitgraber :("BUSCA POSIBLES TOKENS, KEY , PALABRAS CLAVES ETC " CONFIGURAR API REQUERIDA)<br> 
-- shodan :("SHODAN HACE UNA CONSULTA DEL TARGET")<br> 
-- fofa: ("FOFA PARECIDO A SHODAN CON LA DIFERENCIA QUE SE PUEDE BSUCAR POR PROTOCOLO  BUSCA EL TARGET , TAMBIEN SE PUEDEBSUCAR POR EL FAVICON ETC")<br> 
+- shodan :("SHODAN HACE UNA CONSULTA DEL TARGET"CONFIGURAR API)<br> 
+- fofa: ("FOFA PARECIDO A SHODAN CON LA DIFERENCIA QUE SE PUEDE BUSCAR POR PROTOCOLO  , BUSCA EL TARGET , TAMBIEN SE PUEDE BUSCAR POR EL FAVICON ETC")<br> 
 - whoxy.com :("BUSCA  INFO RELEVANTE DEL TARGET INGRESAR AL LINK")<br> 
 - whois.whoisxmlapi.com :("HACE DIFERENTES WHOIS MIRAR , INGRESAR LINK")<br> 
-- builtwith.com :("BUSCA LAS TEGNOLOGIA QUE SE USAN EN ESE TARGET , MUESTRA EN SIOTIOS WEB SE USAS ESAS TEGNOLOGIAS EN PARTE SE ENCUENTRA")<br> 
+- builtwith.com :("BUSCA LAS TEGNOLOGIA QUE SE USAN EN ESE TARGET , MUESTRA EN SITIOS WEB SE USAS ESAS TEGNOLOGIAS EN QUE PARTE SE ENCUENTRAN ETC")<br> 
 - paramspider :("BUSCA PARAMETROS DEL TARGET")<br> 
-- crunchbase.com :("BUSCA LAS ADQUISICIONES DE LA EMPRESA" , TE PEDIRA EL NOMBRE DE LA EMPRESA SOLO)<br> 
+- crunchbase.com :("BUSCA LAS ADQUISICIONES DE LA EMPRESA" , TE PEDIRA EL NOMBRE DE LA EMPRESA SOLO INGRESAR AL LINK)<br> 
 - hackeroner.com :("BUSCA SI LA EMPRESA SE ENCUENTRA EN LOS PROGRAMAS DE HACKERONE")<br> 
 - bugcrown.com :("BUSCA SI LA EMPRESA SE ENCUENTRA EN LOS PROGRAMAS DE BUGCROWN")<br> 
 - intigriti.com :("BUSCA SI LA EMPRESA SE ENCUENTRA EN LOS PROGRAMAS DE INTIGRITI")<br> 
 - cloud_enum :("BUSCA ARCHIVOS AWS , AZURE , GOOGLE_CLOUD ETC" ,  TE PEDIRA EL NOMBRE DEL PRODCUTO SI QUE TIENE LA EMPRESA)<br> 
-- searchsploit :("DEFAUL , SE TIENE QUE ACTIVAR SACANDO LA # EN CASO DE ESTAR ACTIVADO TE PEDIRA EL NOMBRE Y SI SABES LA VERSION MEJOR DE LA TEGNOLOGIA EJEMPLO: APACHE 2.33.5")<br> 
-- amass :("BUSCA POR EL ASN MENCIONA ANTERIORMENTE," ESTA DEFAUL SE TIENE QUE SACAR LA #  TAMBIEN AHI OTRAS OPCIONES DE BUSCAR POR RANGO DR IP)<br> 
+- searchsploit :("DEFAUL ,  TIENE QUE ACTIVAR SACANDO LA # EN CASO DE ESTAR ACTIVADO TE PEDIRA EL NOMBRE Y SI SABES LA VERSION MEJOR DE LA TEGNOLOGIA EJEMPLO: APACHE 2.33.5")<br> 
+- amass :("BUSCA POR EL ASN MENCIONA ANTERIORMENTE," ESTA DEFAUL SE TIENE QUE SACAR LA #  TAMBIEN AHI OTRAS OPCIONES DE BUSCAR POR RANGO DE DIRECCIONES  IP)<br> 
 - amass :("ENUM PASIVO " poner apis para su mejor recoleccion de info)<br> 
 - sunfinder :("SACA TODOS LOS SUBDOMAIN DEL TARGET:" AGREGAR APIS PARA SU MEJOR FUNCIONAMIENTOS)<br> 
 - sublist3r :("SACA SUBDOMAIN :AGREGAR LAS API PARA SU MEJOR RECOLECCION DE INFO")<br> 
@@ -83,9 +83,9 @@
 - emailharvester :("ESTA TOOLS TE APORTA TODOS LOS EMAIL PRESENTE DEL TARGET BUSCA EN DIFERENTES SITIOS NAVEGADORES Y MUCHO MAS, ESTA LIMITADO A 200 EMAIL PODES SACAR EL RATE-LIMIT Y PONER A TU GUSTO ")<br> 
 - eyewintness :("IMPRIME UNA CAPTURA DE TODOS LOS SUBDOMAIN VIVOS")<br> 
 - nmap :("SE UTILIZA UN SCRYPT PARA BUSCAR VULNERABILIDADES EN EL ARCHIVO SUBDOMAIN VIVOS , TE SACA LA  VERSION Y MUCHO")<br> 
-- lynx :("es un navefador por texto muy interesante target")<br> 
+- lynx :("ES UN NAVEGADOR POR TEXTO MUY INTERESANTE TARGET ")<br> 
 - curl :("TE ENTREGA TODAS LOS LINKS  QUE TIENE EL TARGET")<br> 
-- vuelve a utilizar el cmseek : ("ANALIZA TODOS LOS SUBDOMAIN VIVOS EN BUSCA DE ALGUNU CMS PRESENTE Y APLICA EXPLOTACIONY ENUMERACION DE DIRECTO")<br> 
+- vuelve a utilizar el cmseek : ("ANALIZA TODOS LOS SUBDOMAIN VIVOS EN BUSCA DE ALGUN CMS PRESENTE Y APLICA EXPLOTACION , ENUMERACION DE DIRECTORIOS ETC")<br> 
 - nuclei :("NUCLEI RECON DEL TARGET Y LOS SUBDOMAIN VIVOS : NUCLEI -U BUSCA VULNERABILDIADES LOW,  MEDIUM , HIGH , CRITICAL , DEL TARGET Y DEL ARCHIVOS CON LOS SUBDOMAIN VIVOS  ")<br> 
 - nucleiFuzzin :("NUCLEIFUZZIN ESTA TOOL ENCADENA VARIAS TOOLS EN UNA  COMO PUEDE SER PARAMETROS WAYBACURLS, HTTPX , BUSCA DIFERENTES VULNERABILIDADES COMO PUEDEN SER : XSS, SQLi, SSRF, Open-Redirect, CSSRF LFI Y MUCHO MAS , ENFOCADO HACIA EL TARGET ")<br> 
 - ffuf :("APROVECHA Y FUZZEA SACANDO LOS SUBDOMAIN DEL TARGET ": ADEMAS TE SACA LOS DIRECTORIOS DEL TARGET)<br> 
