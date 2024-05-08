@@ -47,6 +47,7 @@ tambien ejecutar el "sudo python3 setup.py install"
 
 # 3-Configurar manulmente las rutas absolutas de tus tools ,y agregar las rutas absoluta de tus tools sea donde este , a FLDSMDFR_general.sh remplazar la ruta de la tools a tu ruta absoluta de cada tools .
 
+# 4-Configurar bien las rutas relativas en la tools de nucleifuzzin. 
 
 ######################input##############################
 # 1- Escribir el target
