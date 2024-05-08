@@ -37,7 +37,7 @@
 <br>"(*==========={FLDSMDFR}=============*)"<br>
 </h2>
 <br>
- <h3>¿QUE ES LO QUE LE HACE UNICA EN SU CAMPO? </h3>
+ <h3>¿QUE ES: LO QUE LE HACE UNICA EN SU CAMPO? </h3>
 <br>
 
 - :file_folder: Es unica en su campo ya cuenta con mas de 110 tools todas en una sola herramienta trabajando conjuntamente entre si , facilitando la automatizacion de diversas fases de Recon , Fuzzin , Explotacion , teniendo en cuenta que se utiliza los mejores comandos para sacar el maximo potencial a cada tools , todo orientado al  bug bounty , sabiendo esto tambien se tuvo en cuenta mandar las resquest menos posibles en diferentes tools , como nuclei , nucleiFuzzin  y muchas mas a continuacion se enumera las tools utilizadas en la herramienta (=={FLDSMDFR}==):<br>
