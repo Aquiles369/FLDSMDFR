@@ -33,8 +33,13 @@
 +[CANAL_YOUTUBE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)<br>
 
 
+<br>"(*==========={FLDSMDFR}=============*)"<br>
 
 
+ ¿QUE ES LO QUE LE HACE UNICA EN SU CAMPO?
+<br>
+- :file_folder: "(=={FLDSMDFR}==)":
+  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">"ESPERO QUE ESTE REPOSITORIO  FUESE DE TU AGRADO , TE MANDO UN SALUDO GRANDE"<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
