@@ -30,15 +30,18 @@
 +[LOGICA_TOOLS:](DOCUEMENTACION_COMPLETA/LOGICA.txt)<br>
 +[INSTALACION_CONFIGURACION:](DOCUEMENTACION_COMPLETA/INSTALACION_CONFIGURACION.txt)<br>
 +[POSIBLES_FALLOS:](DOCUEMENTACION_COMPLETA/POSIBLES_FALLOS.txt)<br>
-+[CANAL_YOUTUBE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)<br>
-
-
-<br>"(*==========={FLDSMDFR}=============*)"<br>
-
-
- ¿QUE ES LO QUE LE HACE UNICA EN SU CAMPO?
++[CANAL_YOUTUBE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)
 <br>
-- :file_folder: "(=={FLDSMDFR}==)":
+
+<h2>
+<br>"(*==========={FLDSMDFR}=============*)"<br>
+</h2>
+<br>
+ <h3>¿QUE ES LO QUE LE HACE UNICA EN SU CAMPO? </h3>
+<br>
+
+- :file_folder: Es unica en su campo ya cuenta con mas de 110 tools todas en una sola herramienta trabajando conjuntamente entre si , facilitabdo la automatizacion de diversas fases de Recon , Fuzzin , Explotacion , teniendo en cuenta que se utiliza los mejores comandos para sacar el maximo potencial a cada tools , todo orientado al  bug bounty , sabiendo esto tambien se tuvo en cuenta mandar los resquest menos posibles en diferentes tools , como nuclei , nucleiFuzzin  y mucho mas a continuacion se enumera las tools utilizadas en la herramienta (=={FLDSMDFR}==):<br>
+- 
   
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
