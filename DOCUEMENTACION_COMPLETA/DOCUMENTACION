@@ -1,5 +1,10 @@
 #instalacion OBLIGATORIA ANTES DE EMPEZAR:
-#SE RECOMIENDO AL INSTALACÍON EN UN SISTEMA OPERATIVO VIRGEN O DISTRO PARA FACILITAR LA INSTALACION Y CONFIGURACION PARA GENTE QUE NO CUENTA CON MUCHOS CONOCIMIENTOS VER VIDEO DE INSTALACION COMPLETA EN:  https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mghttps://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg
+
+#SE RECOMIENDO AL INSTALACÍON EN UN SISTEMA OPERATIVO VIRGEN O DISTRO PARA FACILITAR LA INSTALACION Y CONFIGURACION PARA GENTE QUE NO CUENTA CON MUCHOS CONOCIMIENTOS VER VIDEO DE 
+INSTALACION COMPLETA EN: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mghttps://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg
+
+#EJECUTAR EL INSTALL.SH "descarga todo automaticamente y instala las depenedencia como  "pip3 install -r requirimiento.txt  y te pedira la contraseña ya que algunas tools requieren 
+tambien ejecutar el "sudo python3 setup.py install"
 
 #sudo apt-get install golang
 #sudo pip3
@@ -10,17 +15,21 @@
 #sudo apt-get install dump
 #sudo apt-get install dig
 
+1-PRIMERA PARTE...
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+2-SEGUNDA PARTE...
 
 #"Configurar las Apis requerias en las tool tanto como: 
 #ammas ,sublist3r ,api git graber , api de subfinder , api de shodan y las demas que requeiran.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
+3-TERCERA PARTE...
 
 #Si queires usar la opcion tanto de seactexploit como ffuf y BigBountyRecon estan desactivadas por defaul. Debes de sacar la # en la tools mediante nano o el editor que tengas ejemplo nano FLDSMDFR_general.sh  
+
 #Para usar ffuf tiene que poner la ruta absulta donde se encuentra la worlist , ejemplo home/pepe/Documents/worlist.txt esto tenes que modificar al scrypt nano FLDSMDFR_general.sh  y poner la ruta absoluta de tu worlist 
+
 #Para utilizar BigBountyRecon debes de descargar lo mencionado anterior wine:i386 configurarlo bien y editar el scrypt nano FLDSMDFR_general.sh  se encuentra al ultimo sacar # 
 
 #La tools  "nucleiFuzzin" ver las rutas relativa en nano /usr/bin/nf verificar si esta correctamente la ruta relativa de las tools httpx , nuclei , ParamSpider , sino modificar poniendo las rutas absolutas de las tools mencionaes anteriormente en las rutas ver scrypt /usr/bin/nf/usr/bin/nf
@@ -44,5 +53,6 @@
 # 2- Nombre de empresa solo nombre
 # 3- Se abrira el google_dorks_html ingresar el target
 # 4- Se abrira el BigBountyRecon "OPCIONAL"
-# 4- Al final se abrira el linkfinder buscaro de archivos javacrypt 
+# 5- Al final se abrira el linkfinder buscaro de archivos javacrypt 
+
 ---------------------------------------------------------------------
