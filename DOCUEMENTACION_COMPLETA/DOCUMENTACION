@@ -3,8 +3,6 @@
 #SE RECOMIENDO AL INSTALACÍON EN UN SISTEMA OPERATIVO VIRGEN O DISTRO PARA FACILITAR LA INSTALACION Y CONFIGURACION PARA GENTE QUE NO CUENTA CON MUCHOS CONOCIMIENTOS VER VIDEO DE 
 INSTALACION COMPLETA EN: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mghttps://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg
 
-#EJECUTAR EL INSTALL.SH "descarga todo automaticamente y instala las depenedencia como  "pip3 install -r requirimiento.txt  y te pedira la contraseña ya que algunas tools requieren 
-tambien ejecutar el "sudo python3 setup.py install"
 
 #sudo apt-get install golang
 #sudo pip3
@@ -14,6 +12,11 @@ tambien ejecutar el "sudo python3 setup.py install"
 #sudo apt-get install lynx
 #sudo apt-get install dump
 #sudo apt-get install dig
+
+
+#EJECUTAR EL INSTALL.SH "descarga todo automaticamente y instala las depenedencia como  "pip3 install -r requirimiento.txt  y te pedira la contraseña ya que algunas tools requieren 
+tambien ejecutar el "sudo python3 setup.py install"
+
 
 1-PRIMERA PARTE...
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
