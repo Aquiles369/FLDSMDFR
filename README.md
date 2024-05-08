@@ -21,7 +21,9 @@
   BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"
 - Probado en "kali linux o Derivado  de Debian"
   <br>
-    <br>
+ <p align="center">
+<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
+  </p>
 +[DOCUMENTACION:](DOCUEMENTACION_COMPLETA/DOCUMENTACION)<br>
 +[LOGICA_TOOLS:](DOCUEMENTACION_COMPLETA/LOGICA.txt)<br>
 +[INSTALACION_CONFIGURACION:](DOCUEMENTACION_COMPLETA/INSTALACION_CONFIGURACION.txt)<br>
