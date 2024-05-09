@@ -18,7 +18,7 @@
 <br> 
 
 - :file_folder: "(=={FLDSMDFR}==)" :
-- La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de"110"TOOLS.
+- La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de"100"TOOLS.
 - Recopila una cantidad importante de informacion de distintas herramientas RECON_PASIVO Y ACTIVO , FUZZIN entre otras.
 - Todas estas herramientas juntas en una sola , posibilitando al Auditor la falicidad y simplicidad de la automatizacion con (=={FLDSMDFR}==) "ahorrando tiempo"=="Productividad".
 - Solamente necesitaras 5 entradas , te pedira :  <br> "1-ESCRIBIR TARGET"  <br> "2-NOMBRE DE LA EMPRESA"   <br> "3-NOMBRE DEl PRODUCTO DE LA EMPRESA" <br> "4-SE ABRIRA A FINAL DEL SCRYPT GOOGLE_DORKS.HTML INGRESAR TARGET"   <br>  "5-SE ABRRIRA BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE"  <br>
@@ -40,7 +40,7 @@
  <h3>¿QUE ES: LO QUE LE HACE UNICA EN SU CAMPO? </h3>
 <br>
 
-- :file_folder: Es unica en su campo ya cuenta con mas de 110 tools , todas en una sola herramienta trabajando conjuntamente entre si , facilitando la automatizacion de diversas fases de Recon , Fuzzin , Explotacion , teniendo en cuenta que se utiliza los mejores comandos para sacar el maximo potencial a cada tools , todo orientado al  bug bounty , sabiendo esto tambien se tuvo en cuenta mandar las resquest menos posibles en diferentes tools , como nuclei , nucleiFuzzin  y muchas mas a continuacion se enumera las tools utilizadas en la herramienta (=={FLDSMDFR}==):<br>
+- :file_folder: Es unica en su campo ya cuenta con mas de 100 tools , todas en una sola herramienta trabajando conjuntamente entre si , facilitando la automatizacion de diversas fases de Recon , Fuzzin , Explotacion , teniendo en cuenta que se utiliza los mejores comandos para sacar el maximo potencial a cada tools , todo orientado al  bug bounty , sabiendo esto tambien se tuvo en cuenta mandar las resquest menos posibles en diferentes tools , como nuclei , nucleiFuzzin  y muchas mas a continuacion se enumera las tools utilizadas en la herramienta (=={FLDSMDFR}==):<br>
 - #####################################		TOOLS UTILIZADAS	#######################################<br>
 
 - viewdns.info :("SACA LA IP VERDADERA SI ES POSIBLE ,INGRESAR AL LINK Y VER LA ultima  IP ANTES DEL CAMBIO DE IP CON EL WAFF ")<br> 
