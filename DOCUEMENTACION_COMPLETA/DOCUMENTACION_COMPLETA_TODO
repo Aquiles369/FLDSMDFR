@@ -39,14 +39,32 @@
 
 
 
-#En caso que no te funcione la FLDSMDFR_general.sh , puede tener encuenta estos posibles casos:
+1-PRIMERA PARTE... 
+ejecutar: ./install.sh
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2-SEGUNDA PARTE...
 
-# 1-Dentro de FLDSMDFR_general.sh verificar si las rulas relativas estan corectamente de las tools configurar en el $PATH
+#"Configurar las Apis requerias en las tool tanto como: 
+#ammas ,sublist3r ,api git graber , api de subfinder , api de shodan y las demas que requeiran.
 
-# 2-Configurar la ruta relativa de las tools agregar $PATH para que se pueda ejecutar las tools verificar dentro FLDSMDFR_general.sh las ruta .
+----------------------------------------------------------------------------------------------------------------------------------
+3-TERCERA PARTE...
+          ejecuar:  
 
-# 3-Configurar manulmente las rutas absolutas de tus tools ,y agregar las rutas absoluta de tus tools sea donde este , a FLDSMDFR_general.sh remplazar la ruta de la tools a tu ruta absoluta de cada tools .
+./configuracion_golan.sh   
 
+./configuracion_python.sh
+
+----------------------------------------------------------------------------------------------------------------------------------
+4-TERCERA PARTE...
+
+#Si queires usar la opcion tanto de seactexploit como ffuf y BigBountyRecon estan desactivadas por defaul. Debes de sacar la # en la tools mediante nano o el editor que tengas ejemplo nano FLDSMDFR_general.sh  
+
+#Para usar ffuf tiene que poner la ruta absulta donde se encuentra la worlist , ejemplo home/pepe/Documents/worlist.txt esto tenes que modificar al scrypt nano FLDSMDFR_general.sh  y poner la ruta absoluta de tu worlist 
+
+#Para utilizar BigBountyRecon debes de descargar lo mencionado anterior wine:i386 configurarlo bien y editar el scrypt nano FLDSMDFR_general.sh  se encuentra al ultimo sacar # 
+
+#La tools  "nucleiFuzzin" ver las rutas relativa en nano /usr/bin/nf verificar si esta correctamente la ruta relativa de las tools httpx , nuclei , ParamSpider , sino modificar poniendo las rutas absolutas de las tools mencionaes anteriormente en las rutas ver scrypt /usr/bin/nf/usr/bin/nf
 
 
 ####################################################	input	####################################################################################
