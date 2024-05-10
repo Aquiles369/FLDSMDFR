@@ -91,10 +91,10 @@
 - ffuf :("APROVECHA Y FUZZEA SACANDO LOS SUBDOMAIN DEL TARGET ": ADEMAS TE SACA LOS DIRECTORIOS DEL TARGET)<br> 
 - linkfinder :("ESTA TOOLS TE ENTREGA TODOS LOS ARCHIVOS JAVACRYPT DEL TARGET PARA PODER ANALIZAR Y BUSCAR POSIBLE TOKENS EXPUESTOS ETC")<br> 
 - google_dorks_html :("SE ABRE EN TU NAVEGADOR Y INGRESAS EL TARGET TIENE OTRAS BUSQUEDAS COMPARADO CON EL OTRO Y VISUALMENTE ES MAS INFORMATIVO")<br> 
-- bigbountyRecon :("SE EJECUTA LA  APLICACION  .EXE ENCESITAS INTALAR PREVIAMENTE WINE:I386 PARA SU CORRECTO FUNCIONAMIENTO : INGRESAS EL TARGET Y TENES MAS DE 58 TOOLS PARA DORKIN DEL")"PARA QUE NO SE HAGA MAS EXTENSO DE LO DEBIDO , QUE YA ES MEJOR : TE DEJO EL LINKS PARA VER QUE TOOLS ESTAN EN ESTA HERRAMIENTA EN PALABRAS SIMPLES HACE UN DORKING DE VARIOS SITIOS WEB ETC LA AGRERO A ESTA TOOLS POR QUE VALE LA PENA TENER EN TU ARSENAL: bigbountyRecon https://github.com/Viralmaniar/BigBountyRecon "<br>
+- bigbountyRecon :("SE EJECUTA LA  APLICACION  .EXE NECESITAS INSTALAR PREVIAMENTE WINE:I386 y MONO-COMPLETE PARA SU CORRECTO FUNCIONAMIENTO : INGRESAS EL TARGET Y TENES MAS DE 58 TOOLS PARA DORKIN")"PARA QUE NO SE HAGA MAS EXTENSO DE LO DEBIDO : TE DEJO EL LINKS PARA VER QUE TOOLS ESTAN EN ESTA HERRAMIENTA EN PALABRAS SIMPLES HACE UN DORKING DE VARIOS SITIOS WEB ETC LA AGRERO A ESTA TOOLS POR QUE VALE LA PENA TENER EN TU ARSENAL: bigbountyRecon https://github.com/Viralmaniar/BigBountyRecon "<br>
 <br>
 ___TODAS LAS TOOLS MENCIONADAS GUARDAN SUS RESULTADOS EN EL DIRECTORIO ACTUAL EJEMPLO: resultados-$target 
-Todo los resultados se encuetran en esa carpeta contiene todos los archivos de todas las tools en formato ".txt" cada tools que se ejecuta  se aplica una limpieza  , es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente con ese resultado  pasa a las demas tools asi sucesivamente.<br> 
+Todo los resultados se encuentran en esa carpeta contiene todos los archivos de todas las tools en formato ".txt" cada tools que se ejecuta  se aplica una limpieza  , es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente con ese resultado , pasa a las demas tools asi sucesivamente.<br> 
 ______Cada tools ejecutadada ,  muestra el resultado_____
 
 
