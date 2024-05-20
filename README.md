@@ -107,6 +107,14 @@ ______Cada tools ejecutadada ,  muestra el resultado
   , ademas se recomienda descargar la Secretlist ,y PayloadsALLthings-master_____
 
 
+- :file_folder: "(=={MEJROAS A REALIZAR}==)" :
+- 1) Agregar mas Dorks a google_html y en la terminal.
+- 2) Mejorar busqueda en hackeroner y las demas plataformas.
+- 3) Mayor recursividad en los dominios nuevos encontrados y subdomain.
+- 4) Automatizar la tool eliftool para buscar los metadatos de las imagenes pdf etc, extraidos del codigo fuente del target.
+- 5) Automatizar la tool de Email , comprobar si fueron  vulnerados esos correos.
+- 6) Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en ese sitios web en concreto.
+- 7) Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.
   
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
