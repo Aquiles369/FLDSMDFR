@@ -108,16 +108,16 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 <br>
 <br>
-- :file_folder: "(=={MEJROAS A REALIZAR}==)" :
-- Agregar mas Dorks a google_html y en la terminal.
-- Mejorar busqueda en hackeroner y las demas plataformas.
-- Mayor recursividad en los dominios nuevos encontrados y subdomain.
-- Automatizar la tool eliftool para buscar los metadatos de las imagenes pdf etc, extraidos del codigo fuente del target.
-- Automatizar la tool de Email , comprobar si fueron  vulnerados esos correos.
-- Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en ese sitios web en concreto.
-- Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.
-  <br>
-  <br>
+- :file_folder: "(=={MEJROAS A REALIZAR}==)" :<br>
+- Agregar mas Dorks a google_html y en la terminal.<br>
+- Mejorar busqueda en hackeroner y las demas plataformas.<br>
+- Mayor recursividad en los dominios nuevos encontrados y subdomain.<br>
+- Automatizar la tool eliftool para buscar los metadatos de las imagenes pdf etc, extraidos del codigo fuente del target.<br>
+- Automatizar la tool de Email , comprobar si fueron  vulnerados esos correos.<br>
+- Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en ese sitios web en concreto.<br>
+- Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.<br>
+<br><br>
+<br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">"ESPERO QUE ESTE REPOSITORIO  FUESE DE TU AGRADO , TE MANDO UN SALUDO GRANDE"<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
