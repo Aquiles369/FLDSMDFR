@@ -77,61 +77,70 @@ ejecutar: ./install.sh
 
 
 
-#####################################		LOGICA DE LA TOOLS 	#######################################
+- #####################################		TOOLS UTILIZADAS	#######################################<br>
 
-#ip verdadera
-#asn
-#waff
-#webcheck
-#CMS target
-#scribd
-#buckest
-#postman
-#git graber "key , palabra ramdom" 
-#shodan
-#fofa , "busca por dominio y tambien podes buscar por favicon  tambien podes buscar por "protocolo"
-#whois.com
-#whoisxml.com
-#builtwith "busca por tegnologia cuantos sitios web estan utilizando esa tegnologia y por País "
-#Paramatros del dominio
-#parametros diminio
-#Adquisiciones de la empresa
-#busca en programas de "hackerone si esta el target"
-#busca en programas de "bugcrow si esta el target"
-#busca en programas de "Intigrity si esta el target"
-#cloud aws azure ggocle cloud
-#seacrhexploit "opcional"
-#ammas busca por ASN , "opcional" tambien ahi otras opciones como buscar por rango de ip
-#amass enumeracion passiva
-#subfinder 
-#sublist3r
-#todos los archivos  solo archivo limmpio , ya limpia los duplicados 
-#waybacurls se aplica al archivo limpio de los subdomain anteriormente todos los archivos limpios
-#httpx . Tegnologia de cada subdomain
-#httpx , respuestas estados limpios subdomain
-#httprobe paginas web vivas 
-#parametros de lso subdomain vivos
-#nslookup
-#host
-#dig
-#whois
-#dnsrecon saca los ttl del target y tranferencia de zona prueba
-#dns:convierte todos los archivos de paginas web vivas a ip
-#convertior de todas los dns a ip subdomain
-#google dorks mucho muy bueno
-#Escaneo de vuln en los encabezados mediante curl
-#Extrator de email de diferentes fuentes  del target
-#captura de pantalla de los subdomain vivos
-#nmap de los subdomain vivos
-#lynx es un navegador por consola "interesante "
-#extrae todos los link del target con curl
-#cms subdomain.txt
-#nuclei recon target
-#nucleiFUzzin target
-#nuclei -u posibles vuln target
-#ffuf subdomain fuerza fruta  ver codigo del target , "tambien saca los directorios" etc.
-#Linkfinder:todos los archivos javacrypt del target
-#google dorks por html poner el target
+- viewdns.info :("SACA LA IP VERDADERA SI ES POSIBLE ,INGRESAR AL LINK Y VER LA ultima  IP ANTES DEL CAMBIO DE IP CON EL WAFF ")<br> 
+- bgp.he.net :("TE MUESTRA LOS ASN , DEL TARGET PODES SACAR EL ASN Y LUEGO UTILIZARLO EN LA TOOLS amass posteriormente")<br> 
+- wafw00f :("UTILIZA LA TOOLS PARA SACAR EL WAFF DEL TARGET")<br>
+- wig: ("SACA INFO GENERAL DEL TARGET Y DE LOS SUBDOMAINS VIVOS")
+- cmseek :("ESTA TOOLS DETECTA MAS DE 170 CMS ADEMAS EXPLOTA ALGUNAS VULN ,Y RECORRE DIRECTORIOS")<br>
+- web-check.yxz :("HACE MUCHOS RECON MUY INTERESANTE YA QUE SERIA UN RECON PASIVO")<br> 
+- es.scribd.com :("AQUI PODRIAS ENCONTRAR ARCHIVOS CONFIDENCIALES , SECRETOS , KEY ETC")<br> 
+- buckest.grahatwarfare.com :("BUSCA ARCHIVOS AWS BUCKEST ETC")<br>
+- postman.com :("BUSCA SI ESTA PUBLICO LA API DE JAVA , REQUIERE MAS CONOCIMIENTO Y MAS ACCIONES MANULES INGRESAR Y ANALIZAR")<br> 
+- Gitgraber :("BUSCA POSIBLES TOKENS, KEY , PALABRAS CLAVES ETC " CONFIGURAR API REQUERIDA)<br> 
+- shodan :("SHODAN HACE UNA CONSULTA DEL TARGET"CONFIGURAR API  TE MUESTRA EL LINKS INGRESAR )<br> 
+- fofa: ("FOFA PARECIDO A SHODAN CON LA DIFERENCIA QUE SE PUEDE BUSCAR POR PROTOCOLO  , BUSCA EL TARGET , TAMBIEN SE PUEDE BUSCAR POR EL FAVICON ETC")<br> 
+- whoxy.com :("BUSCA  INFO RELEVANTE DEL TARGET INGRESAR AL LINK")<br> 
+- whois.whoisxmlapi.com :("HACE DIFERENTES WHOIS MIRAR , INGRESAR LINK")<br> 
+- builtwith.com :("BUSCA LAS TEGNOLOGIA QUE SE USAN EN ESE TARGET , MUESTRA EN SITIOS WEB SE USAS ESAS TEGNOLOGIAS EN QUE PARTE SE ENCUENTRAN ETC")<br> 
+- paramspider :("BUSCA PARAMETROS DEL TARGET")<br> 
+- crunchbase.com :("BUSCA LAS ADQUISICIONES DE LA EMPRESA" , TE PEDIRA EL NOMBRE DE LA EMPRESA SOLO INGRESAR AL LINK)<br> 
+- hackeroner.com :("BUSCA SI LA EMPRESA SE ENCUENTRA EN LOS PROGRAMAS DE HACKERONE")<br> 
+- bugcrown.com :("BUSCA SI LA EMPRESA SE ENCUENTRA EN LOS PROGRAMAS DE BUGCROWN")<br> 
+- intigriti.com :("BUSCA SI LA EMPRESA SE ENCUENTRA EN LOS PROGRAMAS DE INTIGRITI")<br> 
+- cloud_enum :("BUSCA ARCHIVOS AWS , AZURE , GOOGLE_CLOUD ETC" ,  TE PEDIRA EL NOMBRE DEL PRODCUTO SI QUE TIENE LA EMPRESA)<br> 
+- searchsploit :("DEFAUL ,  TIENE QUE ACTIVAR SACANDO LA # EN CASO DE ESTAR ACTIVADO TE PEDIRA EL NOMBRE Y SI SABES LA VERSION MEJOR DE LA TEGNOLOGIA EJEMPLO: APACHE 2.33.5")<br> 
+- amass :("BUSCA POR EL ASN MENCIONA ANTERIORMENTE," ESTA DEFAUL SE TIENE QUE SACAR LA #  TAMBIEN AHI OTRAS OPCIONES DE BUSCAR POR RANGO DE DIRECCIONES  IP)<br> 
+- amass :("ENUM PASIVO " poner apis para su mejorar la  recoleccion de info)<br> 
+- sunfinder :("SACA TODOS LOS SUBDOMAIN DEL TARGET:" AGREGAR APIS PARA SU MEJOR FUNCIONAMIENTOS)<br> 
+- sublist3r :("SACA SUBDOMAIN :AGREGAR LAS API PARA SU MEJOR RECOLECCION DE INFO")<br> 
+- waybackurls :("SACA TODAS LAS PAGINAS  DEL HISTORIAL , ESTO SE LE APLICA CON EL ARCHIVO YA LIMPIO DE LOS SUBDOMAIN DE LAS TOOLS ANTERIORES ")<br> 
+- httpx :("SACA LAS TEGNOLOGAS DE LOS SUBDOMAIN CON EL ARCHIVO ANTERIOR" TAMBIEN SACA ES ESTADO DE RESPUESTAS)<br> 
+- httprobe :("SACA LAS PAGINAS VIVAS DEL ARCHIVO SUBDOMAIN")<br> 
+- paramide :("SACA LOS PARAMETROS DE LOS  SUBDOMAIN VIVOS")<br> 
+- nslookup :("INFO WHOIS ")<br> 
+- host :("PASA EL NOMBRE DNS DEL TARGET A IP")<br> 
+- dig :("WHOIS INFO DEL TARGET")<br> 
+- whois :("WHOIS LITERALEMENTE WHOIS DEL TARGET")<br> 
+- dns :("ESTA TOOLS SACA LOS TTL DOMINIOS SUPERIORES DEL TARGET" ADEMAS HACE PRUEBA TRANSFERENCIA DE ZONA AL TARGET)<br> 
+- dnsrecon :("CONVIERTE TODAS LOS SUBDOMAIN VIVO A IP " Y ADEMAS SACA LOS DOMINIOS SUPERIORES DEL TARGET")<br>
+- subfinder: ("ENCUENTRA TODOS LOS SUBDOMAIN DE LOS DOMINIOS SUPERIORES")
+- google_dorks :("GOOGLE_DORKS MUY INTERESANTES DE VARIOS ROBOT.TXT Y MUCHO MAS INGRESAR A CADA LINKS")<br> Ç
+- curl: ("EXTRAE TODO EL CODIGO DEL FRONT DEL TARGET")
+- exilftool: ("DEFAUL , TENES QUE SACAR # , Y PONER LÑA RUTA DE LA IMAGEN A ANALIZAR")
+- escaner_de_encabezados :("HACE UNA BUSQUEDA EN LAS CABEZERAS EN BUSCA DE ALGUNA MALA CONFIGURACION  TE IMPRIME QUE CABEZERA ESTAN PRESENTE Y CUALES NO DEL TARGET")<br> 
+- emailharvester :("ESTA TOOLS TE APORTA TODOS LOS EMAIL PRESENTE DEL TARGET BUSCA EN DIFERENTES SITIOS NAVEGADORES Y MUCHO MAS, ESTA LIMITADO A 200 EMAIL PODES SACAR EL RATE-LIMIT Y PONER A TU GUSTO ")<br>
+- holehe: ("DEFAUL , PODER ACTIVAR TENES QUE SACAR LAS # , PODES COMPROBAR EN QUE SITIO WEB FUE CREADA CUENTA  CON ESE CORREO.")
+- zphisher: ("DEFAUL, PARA ACTIVAR SACAR LAS # TOOLS PARA HACER PHISING")
+- eyewintness :("IMPRIME UNA CAPTURA DE TODOS LOS SUBDOMAIN VIVOS")<br> 
+- nmap :("SE UTILIZA UN SCRYPT PARA BUSCAR VULNERABILIDADES EN EL ARCHIVO SUBDOMAIN VIVOS limpios Y DEL TARGET TAMBIEN  , TE SACA LA  VERSION Y MUCHO")<br> 
+- lynx :("ES UN NAVEGADOR POR TEXTO MUY INTERESANTE TARGET ")<br> 
+- curl :("TE ENTREGA TODAS LOS LINKS  QUE TIENE EL TARGET")<br> 
+- vuelve a utilizar el cmseek : ("ANALIZA TODOS LOS SUBDOMAIN VIVOS EN BUSCA DE ALGUN CMS PRESENTE Y APLICA EXPLOTACION , ENUMERACION DE DIRECTORIOS ETC")<br> 
+- nuclei recon:("NUCLEI RECON DEL TARGET Y DE LOS SUBDOMAIN VIVOS TAMBIEN  : NUCLEI -U BUSCA VULNERABILDIADES LOW,  MEDIUM , HIGH , CRITICAL , DEL TARGET Y DEL ARCHIVOS CON LOS SUBDOMAIN VIVOS  ")<br> 
+- nucleiFuzzin :("NUCLEIFUZZIN ESTA TOOL ENCADENA VARIAS TOOLS EN UNA  COMO PUEDE SER PARAMETROS WAYBACURLS, HTTPX , BUSCA DIFERENTES VULNERABILIDADES COMO PUEDEN SER : XSS, SQLi, SSRF, Open-Redirect, CSSRF LFI Y MUCHO MAS , ENFOCADO HACIA EL TARGET , ADEMAS DE LOS DE LA LISTA DE LOS SUBDOMAIN VIVOS")<br>
+- nuclei: ("BUSCAR TODO TIPO DE VULN EN EL TARGET Y LA LISTA DE SUBDOMAIN VIVOS")
+- ffuf :("APROVECHA Y FUZZEA SACANDO LOS SUBDOMAIN DEL TARGET ": ADEMAS TE SACA LOS DIRECTORIOS DEL TARGET Y DE LOS SUBDOMAIN VIVOS LIMPIOS)<br> 
+- linkfinder :("ESTA TOOLS TE ENTREGA TODOS LOS ARCHIVOS JAVACRYPT DEL TARGET PARA PODER ANALIZAR Y BUSCAR POSIBLE TOKENS EXPUESTOS ETC")<br> 
+- google_dorks_html :("SE ABRE EN TU NAVEGADOR Y INGRESAS EL TARGET TIENE OTRAS BUSQUEDAS COMPARADO CON EL OTRO Y VISUALMENTE ES MAS INFORMATIVO")<br> 
+- bigbountyRecon :("SE EJECUTA LA  APLICACION  .EXE NECESITAS INSTALAR PREVIAMENTE WINE:I386 y MONO-COMPLETE PARA SU CORRECTO FUNCIONAMIENTO : INGRESAS EL TARGET Y TENES MAS DE 58 TOOLS PARA DORKIN")"PARA QUE NO SE HAGA MAS EXTENSO DE LO DEBIDO : TE DEJO EL LINKS PARA VER QUE TOOLS ESTAN EN ESTA HERRAMIENTA EN PALABRAS SIMPLES HACE UN DORKING DE VARIOS SITIOS WEB ETC LA AGRERO A ESTA TOOLS POR QUE VALE LA PENA TENER EN TU ARSENAL: bigbountyRecon https://github.com/Viralmaniar/BigBountyRecon "<br>
+<br>
+___TODAS LAS TOOLS MENCIONADAS GUARDAN SUS RESULTADOS EN EL DIRECTORIO ACTUAL EJEMPLO: resultados-$target 
+Todo los resultados se encuentran en esa carpeta contiene todos los archivos de todas las tools en formato ".txt" cada tools que se ejecuta  se aplica una limpieza  , es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente con ese resultado , pasa a las demas tools asi sucesivamente.<br> 
+______Cada tools ejecutadada ,  muestra el resultado
+  , ademas se recomienda descargar la Secretlist ,y PayloadsALLthings-master_____
+
 #BigBountyRecon:"Interesante tener esta tools instalada en linux o windows 58 herramienta contiene esta sola tools 50 maso  50"
 
 
