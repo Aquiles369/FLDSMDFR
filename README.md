@@ -104,9 +104,10 @@
 ___TODAS LAS TOOLS MENCIONADAS GUARDAN SUS RESULTADOS EN EL DIRECTORIO ACTUAL EJEMPLO: resultados-$target 
 Todo los resultados se encuentran en esa carpeta contiene todos los archivos de todas las tools en formato ".txt" cada tools que se ejecuta  se aplica una limpieza  , es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente con ese resultado , pasa a las demas tools asi sucesivamente.<br> 
 ______Cada tools ejecutadada ,  muestra el resultado
-  , ademas se recomienda descargar la Secretlist ,y PayloadsALLthings-master_____
+  , ademas se recomienda descargar la Secretlist ,y PayloadsALLthings-master_____<br>
 <br>
-
+<br>
+<br>
 - :file_folder: "(=={MEJROAS A REALIZAR}==)" :
 - Agregar mas Dorks a google_html y en la terminal.
 - Mejorar busqueda en hackeroner y las demas plataformas.
@@ -115,7 +116,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Automatizar la tool de Email , comprobar si fueron  vulnerados esos correos.
 - Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en ese sitios web en concreto.
 - Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.
-  
+  <br>
   <br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
