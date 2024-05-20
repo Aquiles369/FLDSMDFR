@@ -108,7 +108,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 
 
 - :file_folder: "(=={MEJROAS A REALIZAR}==)" :
-- 1) Agregar mas Dorks a google_html y en la terminal.
+  1) Agregar mas Dorks a google_html y en la terminal.
 - 2) Mejorar busqueda en hackeroner y las demas plataformas.
 - 3) Mayor recursividad en los dominios nuevos encontrados y subdomain.
 - 4) Automatizar la tool eliftool para buscar los metadatos de las imagenes pdf etc, extraidos del codigo fuente del target.
