@@ -114,7 +114,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Mayor recursividad en los dominios nuevos encontrados y subdomain.<br>
 - Automatizar la tool eliftool para buscar los metadatos de las imagenes pdf etc, extraidos del codigo fuente del target.<br>
 - Automatizar la tool de Email , comprobar si fueron  vulnerados esos correos.<br>
-- Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en que sitios web en concreto.<br>
+- Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en que sitios web.<br>
 - Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.<br>
 <br><br>
 <br>
