@@ -108,7 +108,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 <br>
 <br>
-- :file_folder: "(=={MEJROAS A REALIZAR}==)" :<br>
+- :file_folder: "(=={MEJORAS A REALIZAR}==)" :<br>
 - Agregar mas Dorks a google_html y en la terminal.<br>
 - Mejorar busqueda en hackerone y las demas plataformas.<br>
 - Mayor recursividad en los dominios nuevos encontrados y subdomain.<br>
