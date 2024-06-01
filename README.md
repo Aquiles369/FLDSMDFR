@@ -110,6 +110,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 <br>
 - :file_folder: "(=={MEJORAS A REALIZAR}==)" :<br>
+- Agregar alerta al finalizar el scrypt y los resultados de cada tools via discrot.<br>
 - Agregar mas Dorks a google_html y en la terminal.<br>
 - Agregar distintos Navegadores , distintos Dorks.<br>
 - Mejorar busqueda en hackerone y las demas plataformas.<br>
@@ -118,6 +119,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Automatizar la tool de Email , comprobar si fueron  vulnerados esos correos.<br>
 - Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en que sitios web.<br>
 - Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.<br>
+---Proximamente todo un en contenedor de Docker---
 <br><br>
 <br>
 <p align="center">
