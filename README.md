@@ -120,6 +120,8 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en que sitios web.<br>
 - Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.<br>
 - Agregar ID de seguimiento de Google Analytics para sacar mas dominios y subdomain que usen id.<br>
+- Agregar Registros de Internet Regionales ejemplo: Dependiendo del país en el que esté registrado un dominio (.com, .mx, .es, .uk, .ar,  etc.) será manejado por diferentes entes registrantes , esto sumaria y sacaria mas bloques de ip de ese dominio.<br>
+
 ---Proximamente todo un en contenedor de Docker---
 <br><br>
 - Tips  Consejos:
