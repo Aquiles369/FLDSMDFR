@@ -128,6 +128,11 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Utilizar Proxychain para ir Iterando entre diferentes proxy , con Tor .
 - Se recomienda que se use en una VPS para evitar el bloqueo de ip y la velocidad con digital Ocean o cualquier otro provedor, complementando con axiom para aumentar la velocidad de la tools asi mismo de las  herramientas integradas y el baneo por IP.
 <br>
+<h4> Licencia </h4>
+<p> 
+	MIT Public License v3.0 No puede usarse comercialmente 
+</p>
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">"ESPERO QUE ESTE REPOSITORIO  FUESE DE TU AGRADO , TE MANDO UN SALUDO GRANDE"<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
