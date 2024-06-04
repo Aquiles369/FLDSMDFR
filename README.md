@@ -122,6 +122,9 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Agregar ID de seguimiento de Google Analytics para sacar mas dominios y subdomain que usen id.<br>
 ---Proximamente todo un en contenedor de Docker---
 <br><br>
+- Tips  Consejos:
+- Utilizar Proxychain para ir Iterando entre diferentes proxy , con Tor .
+- Se recomienda que se use en una VPS para evitar el bloqueo de ip y la velocidad con digital Ocean o cualquier otro provedor, complementando con axiom para aumentar la velocidad de la tools asi mismo de las  herramientas integradas y el baneo por IP.
 <br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
