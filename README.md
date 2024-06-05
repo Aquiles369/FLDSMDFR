@@ -16,8 +16,12 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
   </p>
 <br> 
- <h2>Demo de la tools    "https://youtu.be/B_yBze3BoW4" </h2><br>
+ <h2>Demo de la tools: "https://youtu.be/B_yBze3BoW4" </h2><br>
+ <p> 
+ Demo con audio explicacion de la logica de la tools y el codigo: ""
+ </p>
  <br>
+ <p>Video de instalacion completa y configuracion de la FLDSMDFR:</p>
 
 - :file_folder: "(=={FLDSMDFR}==)" :
 - La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de"100"TOOLS.
