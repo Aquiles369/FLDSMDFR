@@ -17,11 +17,12 @@
   </p>
 <br> 
  <h2>Demo de la tools: "https://youtu.be/B_yBze3BoW4" </h2><br>
- <p> 
+  <h2>
  Demo con audio explicacion de la logica de la tools y el codigo: ""
- </p>
+ </h2>
  <br>
- <p>Video de instalacion completa y configuracion de la FLDSMDFR:</p>
+  <h2>Video de instalacion completa y configuracion de la FLDSMDFR:</h2>
+ <br>
 
 - :file_folder: "(=={FLDSMDFR}==)" :
 - La FLDSMDFR es una herramienta unica en su campo ya que cuenta con mas de"100"TOOLS.
