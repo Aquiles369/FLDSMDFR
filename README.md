@@ -75,7 +75,7 @@
 - cloud_enum :("BUSCA ARCHIVOS AWS , AZURE , GOOGLE_CLOUD ETC" ,  TE PEDIRA EL NOMBRE DEL PRODCUTO SI QUE TIENE LA EMPRESA)<br> 
 - searchsploit :("DEFAUL ,  TIENE QUE ACTIVAR SACANDO LA # EN CASO DE ESTAR ACTIVADO TE PEDIRA EL NOMBRE Y SI SABES LA VERSION MEJOR DE LA TEGNOLOGIA EJEMPLO: APACHE 2.33.5")<br> 
 - amass :("BUSCA POR EL ASN MENCIONA ANTERIORMENTE," ESTA DEFAUL SE TIENE QUE SACAR LA #  TAMBIEN AHI OTRAS OPCIONES DE BUSCAR POR RANGO DE DIRECCIONES  IP)<br> 
-- amass :("ENUM PASIVO " poner apis para su mejorar la  recoleccion de info)<br> 
+- amass :("ENUM PASIVO " poner apis para su mejor  recoleccion de info)<br> 
 - sunfinder :("SACA TODOS LOS SUBDOMAIN DEL TARGET:" AGREGAR APIS PARA SU MEJOR FUNCIONAMIENTOS)<br> 
 - sublist3r :("SACA SUBDOMAIN :AGREGAR LAS API PARA SU MEJOR RECOLECCION DE INFO")<br> 
 - waybackurls :("SACA TODAS LAS PAGINAS  DEL HISTORIAL , ESTO SE LE APLICA CON EL ARCHIVO YA LIMPIO DE LOS SUBDOMAIN DE LAS TOOLS ANTERIORES ")<br> 
@@ -117,7 +117,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 <br>
 - :file_folder: "(=={MEJORAS A REALIZAR}==)" :<br>
-- Agregar alerta al finalizar el scrypt y los resultados de cada tools via discrot.<br>
+- Agregar alerta al finalizar el scrypt y los resultados de cada tools via discord.<br>
 - Agregar mas Dorks a google_html y en la terminal.<br>
 - Agregar distintos Navegadores , distintos Dorks.<br>
 - Mejorar busqueda en hackerone y las demas plataformas.<br>
