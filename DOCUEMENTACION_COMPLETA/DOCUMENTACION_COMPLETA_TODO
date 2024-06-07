@@ -239,7 +239,7 @@ ejecutar: ./install.sh
 ----------------------------------------------------------------------------------------------------------------------------------
 4-TERCERA PARTE...
 
-#Si queires usar la opcion tanto de seactexploit como ffuf y BigBountyRecon estan desactivadas por defaul. Debes de sacar la # en la tools mediante nano o el editor que tengas ejemplo nano FLDSMDFR_general.sh  
+#Si queires usar la opcion tanto de searchsploit, como ffuf y BigBountyRecon estan desactivadas por defaul. Debes de sacar la # en la tools mediante nano o el editor que tengas ejemplo nano FLDSMDFR_general.sh  
 
 #Para usar ffuf tiene que poner la ruta absulta donde se encuentra la worlist , ejemplo home/pepe/Documents/worlist.txt esto tenes que modificar al scrypt nano FLDSMDFR_general.sh  y poner la ruta absoluta de tu worlist 
 
