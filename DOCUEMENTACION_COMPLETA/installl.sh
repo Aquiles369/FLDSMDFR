@@ -59,7 +59,7 @@ export PATH=$GORPATH/bin:GOROOT/bin:$HOME/.local/bin:$PATH
 
 # Check if BigBountyRecon is already cloned and installed
 echo " ---------------------------------- Cloning BigBountyRecon ----------------------------------"
-git clone https://github.com/devanshbatham/ParamSpider.git
+git clone https://github.com/Viralmaniar/BigBountyRecon.git
 echo "termionado BigBountyRecon"
 
  
@@ -156,14 +156,14 @@ echo "terminado PayloadsAllTheThings-master"
 
 # Check if waybackurls is installed, if not, install it
 echo " ---------------------------------- Installing waybackurls ---------------------------------- "
-go install github.com/tomnomnom/waybackurls@latest
+git clone  https://github.com/tomnomnom/waybackurls.git
 echo "waybackurls"
 
 
 # Check if httpx is installed, if not, install it
 echo " ---------------------------------- Installing httpx ---------------------------------- "
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+git clone  https://github.com/encode/httpx.git
 echo "terminado httpx"
-
+#pip install httpx 
 
 
