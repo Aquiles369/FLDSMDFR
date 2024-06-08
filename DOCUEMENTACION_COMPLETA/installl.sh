@@ -22,8 +22,6 @@ sudo apt-get install dig
 echo "____________________________________________________terminado dig____________________________________________________"
 sudo apt-get install mono-complete
 echo "____________________________________________________terminado mono-complete____________________________________________________"
-sudo apt -y  install exploitdb-bin-sploits exploitdb-papers
-echo "____________________________________________________terminado extra lista exploitdb____________________________________________________"
 sudo apt-get install ffuf
 echo "____________________________________________________terminado ffuf____________________________________________________"
 sudo apt-get install httprobe
@@ -46,7 +44,8 @@ sudo apt-get install wafw00f
 echo "____________________________________________________terminado wafw00f ____________________________________________________"
 sudo apt-get install exiftool
 echo "____________________________________________________terminado exiftool____________________________________________________"
-
+sudo apt -y  install exploitdb-bin-sploits exploitdb-papers
+echo "____________________________________________________terminado extra lista exploitdb____________________________________________________"
 
 export GORDOT=/usr/local/go
 export GORPATH=$HOME/go
