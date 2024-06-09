@@ -4,6 +4,9 @@
 #!/bin/env bash 
 
 #####################################################################
+#!/bin/env bash 
+
+#####################################################################
 #instalacion OBLIGATORIA ANTES DE EMPEZAR:
 sudo apt-get update
 echo "____________________________________________________actualizado repo____________________________________________________"
@@ -63,7 +66,7 @@ export PATH=$GORPATH/bin:GOROOT/bin:$HOME/.local/bin:$PATH
 # Check if BigBountyRecon is already cloned and installed
 echo " ---------------------------------- Cloning BigBountyRecon ----------------------------------"
 git clone https://github.com/Viralmaniar/BigBountyRecon.git
-echo "termionado BigBountyRecon"
+echo "terminado BigBountyRecon"
 
  
 echo "---------------------------------- clonando repo de holehe ----------------------------------"
@@ -126,7 +129,7 @@ echo "terminado EyeWitness"
 
 # Check if LinkFinder  is already cloned and installed
 echo " ---------------------------------- Cloning LinkFinder ----------------------------------  "
-git clone  git clone https://github.com/GerbenJavado/LinkFinder.git
+git clone https://github.com/GerbenJavado/LinkFinder.git
 # cd $home_dir/LinkFinder &&  pip3 install -r requirements.txt && sudo  python3 seput.py install
 echo "termiando LinkFinder"
 
@@ -165,7 +168,7 @@ echo "terminado PayloadsAllTheThings-master"
 # Check if waybackurls is installed, if not, install it
 echo " ---------------------------------- Installing waybackurls ---------------------------------- "
 git clone  https://github.com/tomnomnom/waybackurls.git
-echo "waybackurls"
+echo "terminado waybackurls"
 
 
 # Check if httpx is installed, if not, install it
@@ -177,6 +180,7 @@ echo "terminado httpx"
 
 
 
+##########################################################################################
 
 
 
