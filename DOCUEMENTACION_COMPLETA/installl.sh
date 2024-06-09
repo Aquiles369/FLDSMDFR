@@ -176,4 +176,8 @@ git clone https://github.com/achillean/shodan-python.git
 #pip install -r requirements.txt --force && sudo python setup.py install && shodan init "clave api"
 echo "terminado shodan"
 
+echo " ---------------------------------- Installing subzy  ---------------------------------- "
+go install -v github.com/LukaSikic/subzy@latest
+echo "terminado subzy"
+
 
