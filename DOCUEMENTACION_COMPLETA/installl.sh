@@ -161,7 +161,7 @@ echo "terminado PayloadsAllTheThings-master"
 
 # Check if waybackurls is installed, if not, install it
 echo " ---------------------------------- Installing waybackurls ---------------------------------- "
-git clone  https://github.com/tomnomnom/waybackurls.git
+go install github.com/tomnomnom/waybackurls@latest
 echo "terminado waybackurls"
 
 
