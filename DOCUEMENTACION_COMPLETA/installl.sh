@@ -123,7 +123,7 @@ echo "terminado EyeWitness"
 
 # Check if LinkFinder  is already cloned and installed
 echo " ---------------------------------- Cloning LinkFinder ----------------------------------  "
-git clone  git clone https://github.com/GerbenJavado/LinkFinder.git
+git clone https://github.com/GerbenJavado/LinkFinder.git
 # cd $home_dir/LinkFinder &&  pip3 install -r requirements.txt && sudo  python3 seput.py install
 echo "termiando LinkFinder"
 
