@@ -147,7 +147,13 @@ echo "terminado  fuzzing-templates"
 echo " ---------------------------------- Cloning nuclei-templates ---------------------------------- "
 git clone https://github.com/projectdiscovery/nuclei-templates.git
 echo "terminado nuclei-templates"
- 
+
+
+#clonar repo de nuclei-fuzzing
+echo " ---------------------------------- Cloning nuclei-fuzzing ---------------------------------- "
+git clone https://github.com/0xKayala/NucleiFuzzer.git 
+# cd NucleiFuzzer && sudo chmod +x install.sh && ./install.sh && nf -h && cd ..
+echo "terminado nuclei-fuzzing "
 
 
 # Check if SecLists.git is already cloned.
