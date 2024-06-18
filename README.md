@@ -34,7 +34,6 @@
   <br>
 
 +[DOCUMENTACION_completa:](DOCUEMENTACION_COMPLETA/DOCUMENTACION_COMPLETA_TODO)<br>
-+[FLDSMDFR_tools_aquiles369:](FLDSMDFR_tools_aquiles369)<br>
 +[CANAL_YOUTUBE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)
 <br>
 
