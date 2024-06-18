@@ -40,6 +40,10 @@
 +[POSIBLES_FALLOS:](DOCUEMENTACION_COMPLETA/POSIBLES_FALLOS.txt)<br>
 +[CANAL_YOUTUBE_INSTALACION_0: https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg ](https://www.youtube.com/channel/UCZjm6YJkfQ6pnBZSnoWd0mg)
 <br>
++[FLDSMDFR_tools_aquiles369:](FLDSMDFR_tools_aquiles369)
+<br>
+
+
 
 <h2>
 <br>"(*==========={FLDSMDFR}=============*)"<br>
