@@ -21,7 +21,7 @@
  Demo con audio y explicacion de la logica de la tools y el codigo: "https://youtu.be/4z0l4edTkb0"
  </h2>
  <br>
-  <h2>Video de instalacion completo y configuracion de la FLDSMDFR:</h2>
+  <h2>Video de instalacion completo y configuracion de la FLDSMDFR: https://youtu.be/2GqE-_AbgBQ </h2>
  <br>
 
 - :file_folder: "(=={FLDSMDFR}==)" :
