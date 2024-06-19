@@ -174,8 +174,8 @@ cat $results_dir/IP_VERDADERA/ip.txt 2>/dev/null
 #echo "-------------------------------------------------------------------------------"
 echo -e "\n\n*================{  INGRESAR: AL LINK VER ASN }===================*\n\n"
 #echo -e "[*] ASN: ...INGRESAR AL LINK...:  \n\n"
-echo "https://bgp.he.net/dns/$target#_ipinfo" > $results_dir/ASN/asn.txt 2> /dev/null
-cat $results_dir/ASN/asn.txt 2> /dev/null
+echo "https://bgp.he.net/dns/$target#_ipinfo" > $results_dir/ASN/asn.txt 2>/dev/null
+cat $results_dir/ASN/asn.txt 2>/dev/null
 
 
     printf "${GRN}"
@@ -195,8 +195,8 @@ cat $results_dir/ASN/asn.txt 2> /dev/null
 #echo "------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  WAFF UTILIZADO POR EL SITIO WEB }===================*\n\n"
 #echo -e "[*] WAFF DE DEL DOMINIO ....MIRAR POSIBLE BYPASS GIT HUB...CABEZA:  \n\n"
-wafw00f https://$target > $results_dir/WAFF/waff.txt 2> /dev/null
-cat $results_dir/WAFF/waff.txt 2> /dev/null
+wafw00f https://$target > $results_dir/WAFF/waff.txt 2>/dev/null
+cat $results_dir/WAFF/waff.txt 2>/dev/null
 #echo "------------------------------------------------------------------------------------"
 
 
@@ -452,7 +452,7 @@ echo -e "\n\n*================{  FOFA: BUSCA POR PROTOCOLO TIPS GENIO Y POR FAVI
 dato=$( echo "$target" | base64 )
 echo "https://en.fofa.info/result?qbase64="$dato > $results_dir/FOFA/fofa_info.txt 2> /dev/null
 echo -e "\n"
-cat $results_dir/FOFA/fofa_info.txt 2> /dev/null
+cat $results_dir/FOFA/fofa_info.txt 2>/dev/null
 #echo "-----------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -473,7 +473,7 @@ cat $results_dir/FOFA/fofa_info.txt 2> /dev/null
 echo -e "\n\n*================{ INGRESAR: LINK WHOIS DOMINIO }===================*\n\n"
 #echo "INFO DOMINIOS WHOIS ETC ....INGRESAR AL LINK ...CABEZA"
 echo "https://www.whoxy.com/$target" > $results_dir/WHOIS/whoxy_info.txt 2> /dev/null
-cat $results_dir/WHOIS/whoxy_info.txt 2> /dev/null
+cat $results_dir/WHOIS/whoxy_info.txt 2>/dev/null
 echo "si no se crea el archivo es pór que no se encontro nada"
 #echo "---------------------------------------------------------------------------------"
 
