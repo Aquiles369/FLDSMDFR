@@ -258,7 +258,7 @@ cat $results_dir/WHOIS/wig.txt
 #echo "--------------------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ CMS: DETECTA AL SITIO WEB:REALIZA BUSQUEDA RUTAS , EXPLOTACION ETC: }===================*\n\n"
 #echo -e "[*]DETECCÍON DE CMS MAS DE 170:...CABEZA...\n\n "
-python3 /home/$usuario/FLDSMDFR/CMSeek/cmseek.py  -u $target > $results_dir/CMS/cms.txt 
+python3 /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/CMSeek/cmseek.py  -u $target > $results_dir/CMS/cms.txt 
 cat $results_dir/CMS/cms.txt 2>/dev/null
 #echo "--------------------------------------------------------------------------------------------------------------------------"
 echo "si no se crea el archivo es por que no encontro nada"
@@ -363,7 +363,7 @@ echo "no crea el archivo por que no se encontro nada"
 #echo "------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN GITHUB: POSIBLES FILTRACIONES DE TOKENS  ETC: }===================*\n\n"
 echo "GIT GRABER BUSCA POSIBLES TOKENS KEY ....loquita..CABEZA , esto tardara un momento"
-python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/gitGraber/wordlists/keywords.txt -q \"$target\" > $results_dir/GITGRABER/gitgraber.txt &
+python3 /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/gitGraber/wordlists/keywords.txt -q \"$target\" > $results_dir/GITGRABER/gitgraber.txt &
 #echo "------------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -382,7 +382,7 @@ python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/F
 #echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN GITHUB: POSIBLES FILTRACIONES DE PALABRAS CLAVES ETC: }===================*\n\n"
 echo "busca nombre de palabras claves"
-python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/gitGraber/wordlists/filename_keywords.txt  -q \"$target\" > $results_dir/GITGRABER/palabras_Archivos.txt 2> /dev/null &
+python3 /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/gitGraber/wordlists/filename_keywords.txt  -q \"$target\" > $results_dir/GITGRABER/palabras_Archivos.txt 2> /dev/null &
 #echo "---------------------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -402,7 +402,7 @@ python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/F
 #echo "----------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN GIT HUB: POSIBLES FILTRACION SECRETOS: }===================*\n\n"
 echo "busca palabras ramdomn secretas"
-python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/gitGraber/wordlists/nullenc0de_keywords.txt -q \"$target\" > $results_dir/GITGRABER/palabras_random.txt 2> /dev/null &
+python3 /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/gitGraber/wordlists/nullenc0de_keywords.txt -q \"$target\" > $results_dir/GITGRABER/palabras_random.txt 2> /dev/null &
 #echo "----------------------------------------------------------------------------------------------------"
 
 
@@ -648,7 +648,7 @@ echo "si no se crea el archivo es pór que no se encontro nada"
 
 #echo "--------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN AWS, GOOGLE_CLOUD , AZURE ETC: }===================*\n\n"
-python3 /home/$usuario/FLDSMDFR/cloud_enum/cloud_enum.py -k $empresa -k $tarjet -k $producto >> $results_dir/ENUM_CLOUD/cloud_enum.txt 2> /dev/null &
+python3 /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/cloud_enum/cloud_enum.py -k $empresa -k $tarjet -k $producto >> $results_dir/ENUM_CLOUD/cloud_enum.txt 2> /dev/null &
 
 #echo "--------------------------------------------------------------------------------------------"
 
@@ -783,7 +783,7 @@ cat  $results_dir/Domain_reconnaissance/subdomains_sublister_limpio.txt | wc -l 
 #echo "------------------------------------------------------------------"
 echo -e "\n\n*================{  FFUF: $target }===================*\n\n"
 #echo "FFUF COMPLETO DE SUBDOMAIN LLEVA UN TIEMPO MAQUINA:..."
-ffuf -w /home/$usuario/FLDSMDFR/SecLists/Discovery/Web-Content/directory-list-2.3-small.tx -c -v -rate 1 -recursion-depth 10 -t 10 -u http://$target/FUZZ > $results_dir/FFUF/subdomain.txt &
+ffuf -w /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/SecLists/Discovery/Web-Content/directory-list-2.3-small.tx -c -v -rate 1 -recursion-depth 10 -t 10 -u http://$target/FUZZ > $results_dir/FFUF/subdomain.txt &
 #echo "------------------------------------------------------------------"
 
 printf "${GRN}"
@@ -1379,7 +1379,7 @@ echo -e "[*] results saved successfully \n\n"
 #echo "-------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ EMAIL: $target }===================*\n\n"
 #echo "EMAIL EXTRATOR DE TODOS, google y mucho mas limitado a 200 maquina , DEL DOMINIO:"
-/home/$usuario/FLDSMDFR/EmailHarvester/EmailHarvester.py -d $target -e all -l 300 > $results_dir/EMAIL/email.txt 2> /dev/null
+/home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/EmailHarvester/EmailHarvester.py -d $target -e all -l 300 > $results_dir/EMAIL/email.txt 2> /dev/null
 cat  $results_dir/EMAIL/email.txt | wc -l 2> /dev/null
 echo "ingresa al link y verificar si ya fueron vulnerados : https://haveibeenpwned.com/"
 
@@ -1391,7 +1391,7 @@ echo "ingresa al link y verificar si ya fueron vulnerados : https://haveibeenpwn
 #echo "-------------------------------------------------------------------------------------------------"
 
 #echo -e "\n\n*================{ PHISING: $target }===================*\n\n"
-#/home/$usuario/FLDSMDFR/zphisher/zphisher.sh 2> /dev/null
+#/home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/zphisher/zphisher.sh 2> /dev/null
 
 
 
@@ -1551,7 +1551,7 @@ echo -e "\n"
 #echo "------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ DETECCÍON DE CMS: SUBDOMAIN_VIVOS_LIMPIOS }===================*\n\n"
 #echo "DETECCÍON DE CMS MAS DE 170 a todos los subdomain vivos animal tranquilo:...CABEZA..."
-python3 /home/$usuario/FLDSMDFR/CMSeeK/cmseek.py  -v -l /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt > $results_dir/CMS/cms_list.txt 2> /dev/null
+python3 /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/CMSeeK/cmseek.py  -v -l /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt > $results_dir/CMS/cms_list.txt 2> /dev/null
 cat $results_dir/CMS/cms_list.txt | wc -l 2> /dev/null
 #echo "------------------------------------------------------------------------------------------------------"
 echo "si no se crea el archivo es por que no encontro nada"
@@ -1690,7 +1690,7 @@ echo -e "[*] Endpoints gathering completed successfully \n\n"
 
 #echo "-----------------------------------------------------------------------------------"
 echo -e "\n\n*================{ ARCHIVOS JAVASCRYPT: $target}===================*\n\n"
-/home/$usuario/FLDSMDFR/linkfinder/linkfinder.py -i https://$target -d > $results_dir/ARCHIVO_JAVACRYPT_DOMINI_COMPLETO/archiv_javacrypt.html  2>  /dev/null
+/home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/linkfinder/linkfinder.py -i https://$target -d > $results_dir/ARCHIVO_JAVACRYPT_DOMINI_COMPLETO/archiv_javacrypt.html  2>  /dev/null
 #echo "-----------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -1727,7 +1727,7 @@ open /home/$usuario/FLDSMDFR/google_dorks.html
 
 #echo "--------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ BIGBOUNTY_RECON: INGREASAR $target }===================*\n\n"
-mono /home/$usuario/FLDSMDFR/BigBountyRecon/BigBountyRecon.exe 
+mono /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/BigBountyRecon/BigBountyRecon.exe 
 #echo "--------------------------------------------------------------------------------------"
 
 
