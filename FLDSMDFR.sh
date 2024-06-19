@@ -858,7 +858,7 @@ cat $results_dir/WAYBU/waybur.txt | wc -l 2> /dev/null
 #echo "----------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  HTTPROBE: PAGINAS VIVAS SUBDOMAIN_LIMPIOS }===================*\n\n"
 #echo "PAGINAS VIVAS  HTTPROBE"
-cat   $results_dir/WAYBU/waybur.txt  | httprobe  -p http:81 -p https:8443 -p http:8000 -p http:8001 -p http:8080 -p htpp:8181 -t 40000 | tee /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt 
+cat   $results_dir/WAYBU/waybur.txt  | httprobe  -p http:81 -p https:8443 -p http:8000 -p http:8001 -p http:8080 -p htpp:8181 -t 40000 | tee /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt 
 cat   /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt | wc -l 2> /dev/null
 #echo "----------------------------------------------------------------------------------------------"
 
@@ -897,7 +897,7 @@ cat $results_dir/ADQUISICION_SUBDOMAIN/vuln_adquisicion_subdomain_vivos.txt 2>/d
 #echo "------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  HTTPX: TEGNOLOGIAS DE LOS SUBDOMAIN_LIMPIOS y VIVOS}===================*\n\n"
 #echo "TEGNOLOGIA DE CADA SUBDOMINIO HTTPX"
-cat    /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt   |  /home/$usuario/go/bin/httpx  -td -v | tee /home/$usario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt
+cat    /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt   |  /home/$usuario/go/bin/httpx  -td -v | tee /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt
 cat   /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt 2> /dev/null
 #echo "-------------------------------------------------------------------------------------------------------"
 
@@ -1571,7 +1571,7 @@ echo "si no se crea el archivo es por que no encontro nada"
 
 #echo "-------------------------------------------------------------------------"
 echo -e "\n\n*================{ NUCLEI RECON: $target }===================*\n\n"
-nuclei -target  $target -rate-limit 4 > /home/$usuario/FLDSMDFR/FLDSMDFR.sh/$results_dir/NUCLE/nuclei_recon.txt 2> /dev/null
+nuclei -target  $target -rate-limit 4 > /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei_recon.txt 2> /dev/null
 cat  /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei_recon.txt 2> /dev/null
 #echo "-------------------------------------------------------------------------"
 
