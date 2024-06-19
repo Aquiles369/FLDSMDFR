@@ -1415,7 +1415,7 @@ echo -e "[*] results saved successfully \n\n"
 #echo "--------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ CAPTURA DE PANTALLA DE TODOS LOS SUBDOMINIOS_VIVOS_LIMPIOS }===================*\n\n"
 #echo "CAPTURA DE PANTALLA DE TODOS LOS SUBDOMINIOS VIVOS"
-subdomains=$ /home/$usuario/FLDSMDFR/EyeWitness/EyeWitness.py --web -f  home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt  &
+subdomains=$ /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/EyeWitness/Python/EyeWitness.py --web -f  home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt  &
 cat home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt | wc -l 2> /dev/null &
 #echo "--------------------------------------------------------------------------------------------------------------"
 
