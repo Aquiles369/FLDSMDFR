@@ -64,7 +64,7 @@ echo -e "${RESET}"
 
 
 # Get the current user's home directory
-usario=$(echo $USER)
+usuario=$(echo $USER)
 pwd=$(echo $PWD)
 
 
@@ -258,7 +258,7 @@ cat $results_dir/WHOIS/wig.txt
 #echo "--------------------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ CMS: DETECTA AL SITIO WEB:REALIZA BUSQUEDA RUTAS , EXPLOTACION ETC: }===================*\n\n"
 #echo -e "[*]DETECCÍON DE CMS MAS DE 170:...CABEZA...\n\n "
-python3 /home/$usario/CMSeek/cmseek.py  -u $target > $results_dir/CMS/cms.txt 
+python3 /home/$usuario/FLDSMDFR/FLDSMDFR.sh/CMSeek/cmseek.py  -u $target > $results_dir/CMS/cms.txt 
 cat $results_dir/CMS/cms.txt 2>/dev/null
 #echo "--------------------------------------------------------------------------------------------------------------------------"
 echo "si no se crea el archivo es por que no encontro nada"
@@ -363,7 +363,7 @@ echo "no crea el archivo por que no se encontro nada"
 #echo "------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN GITHUB: POSIBLES FILTRACIONES DE TOKENS  ETC: }===================*\n\n"
 echo "GIT GRABER BUSCA POSIBLES TOKENS KEY ....loquita..CABEZA , esto tardara un momento"
-python3 /home/$usario/gitGraber/gitGraber.py -l 33 -k /home/$usario/gitGraber/wordlists/keywords.txt -q \"$target\" > $results_dir/GITGRABER/gitgraber.txt &
+python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/gitGraber/wordlists/keywords.txt -q \"$target\" > $results_dir/GITGRABER/gitgraber.txt &
 #echo "------------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -382,7 +382,7 @@ python3 /home/$usario/gitGraber/gitGraber.py -l 33 -k /home/$usario/gitGraber/wo
 #echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN GITHUB: POSIBLES FILTRACIONES DE PALABRAS CLAVES ETC: }===================*\n\n"
 echo "busca nombre de palabras claves"
-python3 /home/$usario/gitGraber/gitGraber.py -l 33 -k /home/$usario/gitGraber/wordlists/filename_keywords.txt  -q \"$target\" > $results_dir/GITGRABER/palabras_Archivos.txt 2> /dev/null &
+python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/gitGraber/wordlists/filename_keywords.txt  -q \"$target\" > $results_dir/GITGRABER/palabras_Archivos.txt 2> /dev/null &
 #echo "---------------------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -402,7 +402,7 @@ python3 /home/$usario/gitGraber/gitGraber.py -l 33 -k /home/$usario/gitGraber/wo
 #echo "----------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN GIT HUB: POSIBLES FILTRACION SECRETOS: }===================*\n\n"
 echo "busca palabras ramdomn secretas"
-python3 /home/$usario/gitGraber/gitGraber.py -l 33 -k /home/$usario/gitGraber/wordlists/nullenc0de_keywords.txt -q \"$target\" > $results_dir/GITGRABER/palabras_random.txt 2> /dev/null &
+python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/gitGraber/wordlists/nullenc0de_keywords.txt -q \"$target\" > $results_dir/GITGRABER/palabras_random.txt 2> /dev/null &
 #echo "----------------------------------------------------------------------------------------------------"
 
 
@@ -648,7 +648,7 @@ echo "si no se crea el archivo es pór que no se encontro nada"
 
 #echo "--------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN AWS, GOOGLE_CLOUD , AZURE ETC: }===================*\n\n"
-python3 /home/$usario/cloud_enum/cloud_enum.py -k $empresa -k $tarjet -k $producto >> $results_dir/ENUM_CLOUD/cloud_enum.txt 2> /dev/null &
+python3 /home/$usuario/FLDSMDFR/cloud_enum/cloud_enum.py -k $empresa -k $tarjet -k $producto >> $results_dir/ENUM_CLOUD/cloud_enum.txt 2> /dev/null &
 
 #echo "--------------------------------------------------------------------------------------------"
 
@@ -783,7 +783,7 @@ cat  $results_dir/Domain_reconnaissance/subdomains_sublister_limpio.txt | wc -l 
 #echo "------------------------------------------------------------------"
 echo -e "\n\n*================{  FFUF: $target }===================*\n\n"
 #echo "FFUF COMPLETO DE SUBDOMAIN LLEVA UN TIEMPO MAQUINA:..."
-ffuf -w /home/$usario/SecLists/Discovery/Web-Content/directory-list-2.3-small.tx -c -v -rate 1 -recursion-depth 10 -t 10 -u http://$target/FUZZ > $results_dir/FFUF/subdomain.txt &
+ffuf -w /home/$usuario/FLDSMDFR/SecLists/Discovery/Web-Content/directory-list-2.3-small.tx -c -v -rate 1 -recursion-depth 10 -t 10 -u http://$target/FUZZ > $results_dir/FFUF/subdomain.txt &
 #echo "------------------------------------------------------------------"
 
 printf "${GRN}"
@@ -834,7 +834,7 @@ cat  $results_dir/Domain_reconnaissance/subdomains_todas_las_tools.txt | wc -l 2
 #echo "--------------------------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  TODOS LOS SUBDOMAIN LIMPIOS + WAYBACKURLS LOS UNE EN UN SOLO ARCHIVO Y QUITA LOS DUPLICADOS: }===================*\n\n"
 #echo "HISTORIAL DE PAGINAS WEB SUBDOMAIN .... + WAYBAC HISTORY...CABEZA"
-cat $results_dir/Domain_reconnaissance/subdomains_todas_las_tools.txt | /home/$usario/go/bin/waybackurls > $results_dir/WAYBU/waybur_no_limpio.txt
+cat $results_dir/Domain_reconnaissance/subdomains_todas_las_tools.txt | /home/$usuario/go/bin/waybackurls > $results_dir/WAYBU/waybur_no_limpio.txt
 sort $results_dir/WAYBU/waybur_no_limpio.txt | uniq > $results_dir/WAYBU/waybur.txt
 cat $results_dir/WAYBU/waybur.txt | wc -l 2> /dev/null
 #echo "------------------------------------------------------------------------------------------------------------------------------------------"
@@ -859,7 +859,7 @@ cat $results_dir/WAYBU/waybur.txt | wc -l 2> /dev/null
 echo -e "\n\n*================{  HTTPROBE: PAGINAS VIVAS SUBDOMAIN_LIMPIOS }===================*\n\n"
 #echo "PAGINAS VIVAS  HTTPROBE"
 cat   $results_dir/WAYBU/waybur.txt  | httprobe  -p http:81 -p https:8443 -p http:8000 -p http:8001 -p http:8080 -p htpp:8181 -t 40000 | tee /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt 
-cat   /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt | wc -l 2> /dev/null
+cat   /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt | wc -l 2> /dev/null
 #echo "----------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -876,7 +876,7 @@ cat   /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance
     echo -e "[*] results saved successfully \n\n"
 
 echo -e "\n\n*================{ COMPROBADOR DE VUL DE ADQUISICION DE SUBDOMAIN VIVOS DEL: $target  }===================*\n\n"
-subzy run --targets /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt > $results_dir/ADSQUISICION_SUBDOMAIN/vuln_adquisicion_subdomain_vivos.txt 2>/dev/null
+subzy run --targets /home/$usario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt > $results_dir/ADSQUISICION_SUBDOMAIN/vuln_adquisicion_subdomain_vivos.txt 2>/dev/null
 cat $results_dir/ADQUISICION_SUBDOMAIN/vuln_adquisicion_subdomain_vivos.txt 2>/dev/null
 
     printf "${GRN}"
@@ -897,8 +897,8 @@ cat $results_dir/ADQUISICION_SUBDOMAIN/vuln_adquisicion_subdomain_vivos.txt 2>/d
 #echo "------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  HTTPX: TEGNOLOGIAS DE LOS SUBDOMAIN_LIMPIOS y VIVOS}===================*\n\n"
 #echo "TEGNOLOGIA DE CADA SUBDOMINIO HTTPX"
-cat    /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt   |  /home/$usario/go/bin/httpx  -td -v | tee /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt
-cat   /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt 2> /dev/null
+cat    /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt   |  /home/$usuario/go/bin/httpx  -td -v | tee /home/$usario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt
+cat   /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt 2> /dev/null
 #echo "-------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -919,8 +919,8 @@ cat   /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance
 #echo "-----------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  HTTPX: ESTADOS DE LOS SUBDOMAIN_LIMPIOS }===================*\n\n"
 #echo "respuestas status de todos los subdominios"
-cat  $results_dir/WAYBU/waybur.txt   |   /home/$usario/go/bin/httpx  -status-code -v | tee /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/estatus_code.txt 2> /dev/null
-cat  home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/estatus_code.txt 2> /dev/null
+cat  $results_dir/WAYBU/waybur.txt   |   /home/$usuario/go/bin/httpx  -status-code -v | tee /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/estatus_code.txt 2> /dev/null
+cat  home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/estatus_code.txt 2> /dev/null
 #echo "-----------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -941,7 +941,7 @@ cat  home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/e
 #echo "____________________________________________________________________________________________________________"
 echo -e "\n\n*================{  WIG: EXTRAE INFO GENERAL DEL SUBDOMAIN_VIVOS_LIMPIOS }===================*\n\n"
 #echo "Saca info general wig"
-wig -l  /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt  >  $results_dir/WHOIS/wig_subdomain.txt 
+wig -l  /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt  >  $results_dir/WHOIS/wig_subdomain.txt 
 cat  $results_dir/WHOIS/wig_subdomain.txt
 #echo "-----------------------------------------------------------------------------------------------------------"
 
@@ -962,7 +962,7 @@ cat  $results_dir/WHOIS/wig_subdomain.txt
 #echo "-------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  PARAMETROS : SUBDOMAIN_VIVO_LIMPIO }===================*\n\n"
 #echo "PARAMETROS DEL LOS SUBDOMAIN VIVOS...CABEZA"
-paramspider -l  /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt >> $results_dir/PARAMETROS/parametros_de_subdomain_vivos.txt 2> /dev/null
+paramspider -l  /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt >> $results_dir/PARAMETROS/parametros_de_subdomain_vivos.txt 2> /dev/null
 cat   $results_dir/PARAMETROS/parametros_de_subdomain_vivos.txt 2> /dev/null
 #echo "-------------------------------------------------------------------------------------"
 
@@ -1143,7 +1143,7 @@ echo "--------------------------------------------------------------------------
 #echo "---------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ DE DNS A IP: SUBDOMAIN_VIVOS_LIMPIO }===================*\n\n"
 #echo "COVERTIDOR DE DNS A IP DE TODAS LAS PAGINAS WEB VIVVAS:"
-cat  /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt | dnsx  -silent  -resp-only > $results_dir/Domain_reconnaissance/ip_de_subdomain.txt 2> /dev/null
+cat  /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt | dnsx  -silent  -resp-only > $results_dir/Domain_reconnaissance/ip_de_subdomain.txt 2> /dev/null
 cat  $results_dir/Domain_reconnaissance/ip_de_subdomain.txt | wc -l 2> /dev/null
 #echo "---------------------------------------------------------------------------------------"
 
@@ -1379,7 +1379,7 @@ echo -e "[*] results saved successfully \n\n"
 #echo "-------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ EMAIL: $target }===================*\n\n"
 #echo "EMAIL EXTRATOR DE TODOS, google y mucho mas limitado a 200 maquina , DEL DOMINIO:"
-/home/$usario/Desktop/EmailHarvester/EmailHarvester.py -d $target -e all -l 300 > $results_dir/EMAIL/email.txt 2> /dev/null
+/home/$usuario/FLDSMDFR/EmailHarvester/EmailHarvester.py -d $target -e all -l 300 > $results_dir/EMAIL/email.txt 2> /dev/null
 cat  $results_dir/EMAIL/email.txt | wc -l 2> /dev/null
 echo "ingresa al link y verificar si ya fueron vulnerados : https://haveibeenpwned.com/"
 
@@ -1391,7 +1391,7 @@ echo "ingresa al link y verificar si ya fueron vulnerados : https://haveibeenpwn
 #echo "-------------------------------------------------------------------------------------------------"
 
 #echo -e "\n\n*================{ PHISING: $target }===================*\n\n"
-#/home/$usario/Desktop/herramienta_phising/zphisher/zphisher.sh 2> /dev/null
+#/home/$usuario/FLDSMDFR/zphisher/zphisher.sh 2> /dev/null
 
 
 
@@ -1415,8 +1415,8 @@ echo -e "[*] results saved successfully \n\n"
 #echo "--------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ CAPTURA DE PANTALLA DE TODOS LOS SUBDOMINIOS_VIVOS_LIMPIOS }===================*\n\n"
 #echo "CAPTURA DE PANTALLA DE TODOS LOS SUBDOMINIOS VIVOS"
-subdomains=$ /home/$usario/EyeWitness/EyeWitness.py --web -f  home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt  &
-cat home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt | wc -l 2> /dev/null &
+subdomains=$ /home/$usuario/FLDSMDFR/EyeWitness/EyeWitness.py --web -f  home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt  &
+cat home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt | wc -l 2> /dev/null &
 #echo "--------------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -1460,7 +1460,7 @@ cat $results_dir/Network_map_ping/nmap_target_map.txt | wc -l 2> /dev/null
 #echo "----------------------------------------------------------------------------------"
 #echo "NMAP BUSCANDO VULNERABILIDADES"
 echo -e "\n\n*============{ Network Mapping: SUBDOMAIN_VIVOS_LIMPIOS }============*\n\n"
-nmap_network_map=$ nmap  -sV  --script vulners -iL home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt | tee $results_dir/Network_map_ping/nmap_todas_las_subdominios_tools_map.txt 2> /dev/null
+nmap_network_map=$ nmap  -sV  --script vulners -iL home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt | tee $results_dir/Network_map_ping/nmap_todas_las_subdominios_tools_map.txt 2> /dev/null
 cat $results_dir/Network_map_ping/nmap_todas_las_subdominios_tools_map.txt | wc -l 2> /dev/null
 #echo "-----------------------------------------------------------------------------------"
 
@@ -1551,7 +1551,7 @@ echo -e "\n"
 #echo "------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ DETECCÍON DE CMS: SUBDOMAIN_VIVOS_LIMPIOS }===================*\n\n"
 #echo "DETECCÍON DE CMS MAS DE 170 a todos los subdomain vivos animal tranquilo:...CABEZA..."
-python3 /home/$usario/CMSeeK/cmseek.py  -v -l /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt > $results_dir/CMS/cms_list.txt 2> /dev/null
+python3 /home/$usuario/FLDSMDFR/CMSeeK/cmseek.py  -v -l /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt > $results_dir/CMS/cms_list.txt 2> /dev/null
 cat $results_dir/CMS/cms_list.txt | wc -l 2> /dev/null
 #echo "------------------------------------------------------------------------------------------------------"
 echo "si no se crea el archivo es por que no encontro nada"
@@ -1571,8 +1571,8 @@ echo "si no se crea el archivo es por que no encontro nada"
 
 #echo "-------------------------------------------------------------------------"
 echo -e "\n\n*================{ NUCLEI RECON: $target }===================*\n\n"
-nuclei -target  $target -rate-limit 4 > /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/NUCLE/nuclei_recon.txt 2> /dev/null
-cat  /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/NUCLE/nuclei_recon.txt 2> /dev/null
+nuclei -target  $target -rate-limit 4 > /home/$usuario/FLDSMDFR/FLDSMDFR.sh/$results_dir/NUCLE/nuclei_recon.txt 2> /dev/null
+cat  /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei_recon.txt 2> /dev/null
 #echo "-------------------------------------------------------------------------"
 
 printf "${GRN}"
@@ -1591,8 +1591,8 @@ echo -e "[*] Endpoints gathering completed successfully \n\n"
 
 #echo "------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ NUCLEI RECON LISTA_SUBDOMAIN_VIVOS: $target }===================*\n\n"
-nuclei -target  -l /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt -rate-limit 4 > /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/NUCLE/nuclei_recon_lista_subdomain_vivos.txt 2> /dev/null
-cat  /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/NUCLE/nuclei_recon_lista_subdomain_vivos.txt | wc -l 2> /dev/null
+nuclei -target  -l /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt -rate-limit 4 > /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei_recon_lista_subdomain_vivos.txt 2> /dev/null
+cat  /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei_recon_lista_subdomain_vivos.txt | wc -l 2> /dev/null
 #echo "------------------------------------------------------------------------------------------------"
 
 printf "${GRN}"
@@ -1611,7 +1611,7 @@ echo -e "[*] Endpoints gathering completed successfully \n\n"
 
 #echo "--------------------------------------------------------------------------"
 echo -e "\n\n*================{ NUCLEI FUZZIN: $target }===================*\n\n"
-nf -d $target > /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/NUCLE/nuclei_fuzzin.yaml 2>&1
+nf -d $target > /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei_fuzzin.yaml 2>&1
 #echo "--------------------------------------------------------------------------"
 
 printf "${GRN}"
@@ -1631,7 +1631,7 @@ echo -e "[*] Endpoints gathering completed successfully \n\n"
 
 #echo "-------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ NUCLEI FUZZIN LISTA_SUBDOMAIN_VIVOS: $target }===================*\n\n"
-nf   -f  /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt > /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/NUCLE/nuclei_fuzzin_list_subdomain_vivos.yaml 2> /dev/null
+nf   -f  /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt > /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei_fuzzin_list_subdomain_vivos.yaml 2> /dev/null
 #echo "-------------------------------------------------------------------------------------------------"
 
 printf "${GRN}"
@@ -1653,7 +1653,7 @@ echo -e "[*] Endpoints gathering completed successfully \n\n"
 
 #echo "----------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ NUCLEI BUSCA POSIBLES EXPLOTACION: $target }===================*\n\n"
-nuclei  -s low,medium,high,critical -u  $target  -rate-limit 4 > /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/NUCLE/nuclei.txt 2> /dev/null
+nuclei  -s low,medium,high,critical -u  $target  -rate-limit 4 > /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei.txt 2> /dev/null
 #echo "----------------------------------------------------------------------------------------------"
 
 printf "${GRN}"
@@ -1672,7 +1672,7 @@ echo -e "[*] Endpoints gathering completed successfully \n\n"
 
 #echo "----------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ NUCLEI BUSCA POSIBLES EXPLOTACION_lista_SUBDOMAIN_VIVOS: $target }===================*\n\n"
-nuclei  -s low,medium,high,critical -l  /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/Domain_reconnaissance/paginas_vivas.txt  -rate-limit 4 > /home/$usario/FLDSMDFR_tools_aquiles369/$results_dir/NUCLE/nuclei_list_subdomain_vivos.txt 2> /dev/null
+nuclei  -s low,medium,high,critical -l  /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt  -rate-limit 4 > /home/$usuario/FLDSMDFR/$results_dir/NUCLE/nuclei_list_subdomain_vivos.txt 2> /dev/null
 #echo "----------------------------------------------------------------------------------------------"
 
 printf "${GRN}"
@@ -1690,7 +1690,7 @@ echo -e "[*] Endpoints gathering completed successfully \n\n"
 
 #echo "-----------------------------------------------------------------------------------"
 echo -e "\n\n*================{ ARCHIVOS JAVASCRYPT: $target}===================*\n\n"
-/home/$usario/linkfinder/linkfinder.py -i https://$target -d > $results_dir/ARCHIVO_JAVACRYPT_DOMINI_COMPLETO/archiv_javacrypt.html  2>  /dev/null
+/home/$usuario/FLDSMDFR/linkfinder/linkfinder.py -i https://$target -d > $results_dir/ARCHIVO_JAVACRYPT_DOMINI_COMPLETO/archiv_javacrypt.html  2>  /dev/null
 #echo "-----------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -1709,7 +1709,7 @@ echo -e "\n\n*================{ ARCHIVOS JAVASCRYPT: $target}===================
 
 #echo "---------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ GOOGLE_DORKS HTML: INGRESAR $target}===================*\n\n"
-open /home/aquiles/FLDSMDFR_tools_aquiles369/google_dorks.html
+open /home/$usuario/FLDSMDFR/google_dorks.html
 #echo "---------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -1727,7 +1727,7 @@ open /home/aquiles/FLDSMDFR_tools_aquiles369/google_dorks.html
 
 #echo "--------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ BIGBOUNTY_RECON: INGREASAR $target }===================*\n\n"
-mono /home/aquiles/FLDSMDFR_tools_aquiles369/BigBountyRecon/BigBountyRecon.exe 
+mono /home/$usuario/FLDSMDFR/BigBountyRecon/BigBountyRecon.exe 
 #echo "--------------------------------------------------------------------------------------"
 
 
