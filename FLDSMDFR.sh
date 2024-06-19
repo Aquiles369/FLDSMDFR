@@ -834,7 +834,7 @@ cat  $results_dir/Domain_reconnaissance/subdomains_todas_las_tools.txt | wc -l 2
 #echo "--------------------------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  TODOS LOS SUBDOMAIN LIMPIOS + WAYBACKURLS LOS UNE EN UN SOLO ARCHIVO Y QUITA LOS DUPLICADOS: }===================*\n\n"
 #echo "HISTORIAL DE PAGINAS WEB SUBDOMAIN .... + WAYBAC HISTORY...CABEZA"
-cat $results_dir/Domain_reconnaissance/subdomains_todas_las_tools.txt | /home/$usuario/go/bin/waybackurls > $results_dir/WAYBU/waybur_no_limpio.txt
+cat $results_dir/Domain_reconnaissance/subdomains_todas_las_tools.txt | waybackurls > $results_dir/WAYBU/waybur_no_limpio.txt
 sort $results_dir/WAYBU/waybur_no_limpio.txt | uniq > $results_dir/WAYBU/waybur.txt
 cat $results_dir/WAYBU/waybur.txt | wc -l 2> /dev/null
 #echo "------------------------------------------------------------------------------------------------------------------------------------------"
