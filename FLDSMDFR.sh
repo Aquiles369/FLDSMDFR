@@ -721,8 +721,7 @@ echo -e "\n\n*============{ Domain Reconnaissance }============*\n\n"
 #echo "------------------------------------------------------------------------------"
 echo -e "\n\n*================{  AMASS --PASIVE : $target }===================*\n\n"
 #Gather information about subdomains
-subdomains=$ amass enum --passive -d $target  | tee $results_dir/Domain_reconnaissance/amass.txt && pv | awk  '{printf("%3d%% [%s%s]\r", ($1/$2)*100, str, sp)}{str=str "#";sp=sp " "}' 2> /dev/null &
-cat $results_dir/Domain_reconnaissance/amass.txt | wc -l 2> /dev/null &
+subdomains=$ amass enum --passive -d $target  | tee $results_dir/Domain_reconnaissance/amass.txt && pv | awk  '{printf("%3d%% [%s%s]\r", ($1/$2)*100, str, sp)}{str=str "#";sp=sp " "}' 2>/dev/null &
 #echo "------------------------------------------------------------------------------"
 
     printf "${GRN}"
