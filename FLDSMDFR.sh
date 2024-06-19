@@ -258,7 +258,7 @@ cat $results_dir/WHOIS/wig.txt
 #echo "--------------------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{ CMS: DETECTA AL SITIO WEB:REALIZA BUSQUEDA RUTAS , EXPLOTACION ETC: }===================*\n\n"
 #echo -e "[*]DETECCÍON DE CMS MAS DE 170:...CABEZA...\n\n "
-python3 /home/$usuario/FLDSMDFR/FLDSMDFR.sh/CMSeek/cmseek.py  -u $target > $results_dir/CMS/cms.txt 
+python3 /home/$usuario/FLDSMDFR/CMSeek/cmseek.py  -u $target > $results_dir/CMS/cms.txt 
 cat $results_dir/CMS/cms.txt 2>/dev/null
 #echo "--------------------------------------------------------------------------------------------------------------------------"
 echo "si no se crea el archivo es por que no encontro nada"
@@ -382,7 +382,7 @@ python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/F
 #echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN GITHUB: POSIBLES FILTRACIONES DE PALABRAS CLAVES ETC: }===================*\n\n"
 echo "busca nombre de palabras claves"
-python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/gitGraber/wordlists/filename_keywords.txt  -q \"$target\" > $results_dir/GITGRABER/palabras_Archivos.txt 2> /dev/null &
+python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/gitGraber/wordlists/filename_keywords.txt  -q \"$target\" > $results_dir/GITGRABER/palabras_Archivos.txt 2> /dev/null &
 #echo "---------------------------------------------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -402,7 +402,7 @@ python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/g
 #echo "----------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  BUSCA EN GIT HUB: POSIBLES FILTRACION SECRETOS: }===================*\n\n"
 echo "busca palabras ramdomn secretas"
-python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/gitGraber/wordlists/nullenc0de_keywords.txt -q \"$target\" > $results_dir/GITGRABER/palabras_random.txt 2> /dev/null &
+python3 /home/$usuario/FLDSMDFR/gitGraber/gitGraber.py -l 33 -k /home/$usuario/FLDSMDFR/gitGraber/wordlists/nullenc0de_keywords.txt -q \"$target\" > $results_dir/GITGRABER/palabras_random.txt 2> /dev/null &
 #echo "----------------------------------------------------------------------------------------------------"
 
 
@@ -721,8 +721,8 @@ echo -e "\n\n*============{ Domain Reconnaissance }============*\n\n"
 #echo "------------------------------------------------------------------------------"
 echo -e "\n\n*================{  AMASS --PASIVE : $target }===================*\n\n"
 #Gather information about subdomains
-subdomains=$ amass enum --passive -d $target  | tee $results_dir/Domain_reconnaissance/amass.txt && pv | awk  '{printf("%3d%% [%s%s]\r", ($1/$2)*100, str, sp)}{str=str "#";sp=sp " "}' 2> /dev/null
-cat $results_dir/Domain_reconnaissance/amass.txt | wc -l 2> /dev/null
+subdomains=$ amass enum --passive -d $target  | tee $results_dir/Domain_reconnaissance/amass.txt && pv | awk  '{printf("%3d%% [%s%s]\r", ($1/$2)*100, str, sp)}{str=str "#";sp=sp " "}' 2> /dev/null &
+cat $results_dir/Domain_reconnaissance/amass.txt | wc -l 2> /dev/null &
 #echo "------------------------------------------------------------------------------"
 
     printf "${GRN}"
@@ -762,7 +762,7 @@ cat $results_dir/Domain_reconnaissance/subdomains_subfinder_limpio.txt | wc -l 2
 #echo "------------------------------------------------------------------------"
 echo -e "\n\n*================{  SUBLIST3R: $target }===================*\n\n"
 # Gather information about subdomains using sublister
-subdomains=$ /usr/bin/Sublist3r/sublist3r.py -d $target  -o $results_dir/Domain_reconnaissance/subdomains_sublister.txt &&
+subdomains=$ sublist3r -d $target  -o $results_dir/Domain_reconnaissance/subdomains_sublister.txt 
 sort $results_dir/Domain_reconnaissance/subdomains_sublister.txt | uniq > $results_dir/Domain_reconnaissance/subdomains_sublister_limpio.txt 2> /dev/null
 cat  $results_dir/Domain_reconnaissance/subdomains_sublister_limpio.txt | wc -l 2> /dev/null
 #echo "------------------------------------------------------------------------"
