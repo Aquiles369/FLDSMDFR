@@ -167,7 +167,7 @@ echo "terminado waybackurls"
 
 # Check if httpx is installed, if not, install it
 echo " ---------------------------------- Installing httpx ---------------------------------- "
-git clone  https://github.com/encode/httpx.git
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 echo "terminado httpx"
 #pip install httpx 
 
