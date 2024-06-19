@@ -783,7 +783,7 @@ cat  $results_dir/Domain_reconnaissance/subdomains_sublister_limpio.txt | wc -l 
 #echo "------------------------------------------------------------------"
 echo -e "\n\n*================{  FFUF: $target }===================*\n\n"
 #echo "FFUF COMPLETO DE SUBDOMAIN LLEVA UN TIEMPO MAQUINA:..."
-ffuf -w /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/SecLists/Discovery/Web-Content/directory-list-2.3-small.tx -c -v -rate 1 -recursion-depth 10 -t 10 -u http://$target/FUZZ > $results_dir/FFUF/subdomain.txt &
+ffuf -w /home/$usuario/FLDSMDFR/TOOLS_Y_INSTALADOR/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt -c -v -rate 1 -recursion-depth 10 -t 10 -u http://$target/FUZZ > $results_dir/FFUF/subdomain.txt &
 #echo "------------------------------------------------------------------"
 
 printf "${GRN}"
