@@ -94,7 +94,7 @@ echo "terminado Cloud_enum"
 # Check if GITGRABER  is already cloned and installed
 echo " ---------------------------------- Cloning Gitgraber ---------------------------------- "
 git clone  https://github.com/hisxo/gitGraber.git
-# cd $home_dir/gitGraber   pip3 install -r requirements.txt
+# cd $home_dir/gitGraber   pip3 install -r requirements.txt #poner tu token personal de git hub en config.py
 echo "terminado Gitgraber" 
 
 
