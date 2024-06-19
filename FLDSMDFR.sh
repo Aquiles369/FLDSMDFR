@@ -897,7 +897,7 @@ cat $results_dir/ADQUISICION_SUBDOMAIN/vuln_adquisicion_subdomain_vivos.txt 2>/d
 #echo "------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  HTTPX: TEGNOLOGIAS DE LOS SUBDOMAIN_LIMPIOS y VIVOS}===================*\n\n"
 #echo "TEGNOLOGIA DE CADA SUBDOMINIO HTTPX"
-cat    /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt   |  /home/$usuario/go/bin/httpx  -td -v | tee /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt
+cat    /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/paginas_vivas.txt   |  httpx  -td -v | tee /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt
 cat   /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subdomain.txt 2> /dev/null
 #echo "-------------------------------------------------------------------------------------------------------"
 
@@ -919,7 +919,7 @@ cat   /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/tegnoligas_subd
 #echo "-----------------------------------------------------------------------------------------------------------"
 echo -e "\n\n*================{  HTTPX: ESTADOS DE LOS SUBDOMAIN_LIMPIOS }===================*\n\n"
 #echo "respuestas status de todos los subdominios"
-cat  $results_dir/WAYBU/waybur.txt   |   /home/$usuario/go/bin/httpx  -status-code -v | tee /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/estatus_code.txt 2> /dev/null
+cat  $results_dir/WAYBU/waybur.txt   |   httpx  -status-code -v | tee /home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/estatus_code.txt 2> /dev/null
 cat  home/$usuario/FLDSMDFR/$results_dir/Domain_reconnaissance/estatus_code.txt 2> /dev/null
 #echo "-----------------------------------------------------------------------------------------------------------"
 
