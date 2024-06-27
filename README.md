@@ -118,7 +118,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 <br>
 <br>
-- :file_folder: "(=={¿ Que  traerá la nueva version V2.0 ?}==)" :<br>
+- :file_folder: "(=={¿ Que  traerá la nueva version v2.0 ?}==)" :<br>
 - Las siguientes mejoras son:<br>
 - Se agregara un menu de opciones que contiene 3 opciones para elegir , opcion numero 1 realizar escaneo completo  te pedira las 3 entradas normales nombre del target , nombre de la 
   empresa , nombre del producto en caso que tenga uno la empresa , Recon  Enumeracion y Explotacion .Opcion numero 2 realizar escaneo 
