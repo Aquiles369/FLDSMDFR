@@ -1,4 +1,4 @@
-- #####################################		TOOLS UTILIZADAS	#######################################<br>
+- #####################################		LOGICA DE LA TOOL EN ORDEN	#######################################<br>
 
 - viewdns.info :("SACA LA IP VERDADERA SI ES POSIBLE ,INGRESAR AL LINK Y VER LA ultima  IP ANTES DEL CAMBIO DE IP CON EL WAFF ")<br> 
 - bgp.he.net :("TE MUESTRA LOS ASN , DEL TARGET PODES SACAR EL ASN Y LUEGO UTILIZARLO EN LA TOOLS amass posteriormente")<br> 
