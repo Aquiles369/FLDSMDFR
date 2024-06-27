@@ -120,8 +120,10 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 - :file_folder: "(=={¿ Que  traerá la nueva version V2.0 ?}==)" :<br>
 - Las siguientes mejoras son:<br>
-- Se agregara un menu de opciones que contiene 3 opciones para elegir , opcion numero 1 realizar escaneo completo Recon , Enumeracion y Explotacion .Opcion numero 2 realizar escaneo 
-  de Recon unicamente , Opcion 3 realizar explotacion de vulnerabilidaes web y puertos tcp y udp expuesto etc.<br>
+- Se agregara un menu de opciones que contiene 3 opciones para elegir , opcion numero 1 realizar escaneo completo  te pedira las 3 entradas normales nombre del target , nombre de la 
+  empresa , nombre del producto en caso que tenga uno la empresa , Recon  Enumeracion y Explotacion .Opcion numero 2 realizar escaneo 
+  de Recon  te pedira unicamente 3 entradas el nombre del target y de la empresa y en caso que tenga un producto , Opcion 3 realizar la explotacion de las vulnerabilidaes web y 
+  puertos tcp y udp expuesto etc , te pedira unicamente una entrada solo el nombre del target.<br>
 - Mejorar la presentacion visual de los resultados , mostrados en la terminal.<br>
 - Alerta al finalizar el scrypt y los resultados de cada tools via discord.<br>
 - Mas Dorks al archivo de  google_html y en la terminal.<br>
