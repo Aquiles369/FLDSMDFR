@@ -118,12 +118,13 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 <br>
 <br>
-- :file_folder: "(=={MEJORAS A REALIZAR}==)" :<br>
-- Agregar alerta al finalizar el scrypt y los resultados de cada tools via discord.<br>
-- Agregar mas Dorks a google_html y en la terminal.<br>
-- Agregar distintos Navegadores , distintos Dorks.<br>
+- :file_folder: "(=={¿Que  traerá la nueva version V2.0?}==)" :<br>
+- Se agregara los siguientes temas:
+- Alerta al finalizar el scrypt y los resultados de cada tools via discord.<br>
+- Mas Dorks al archivo de  google_html y en la terminal.<br>
+- Distintos Navegadores , distintos Dorks para mayor busqueda de informacion indexada.<br>
 - Mejorar busqueda en hackerone y las demas plataformas.<br>
-- Mayor recursividad en los dominios nuevos encontrados y subdomain.<br>
+- Mayor recursividad en los dominios nuevos , encontrados y subdomonios.<br>
 - Automatizar la tool eliftool para buscar los metadatos de las imagenes pdf etc, extraidos del codigo fuente del target.<br>
 - Automatizar la tool de Email , comprobar si fueron  vulnerados esos correos.<br>
 - Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en que sitios web.<br>
@@ -133,7 +134,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 
 ---Proximamente todo un en contenedor de Docker---
 <br><br>
-- Tips  Consejos:
+- Tips , Recomendaciones , Consejos:
 - Utilizar Proxychain para ir Iterando entre diferentes proxy , con Tor .
 - Se recomienda que se use en una VPS para evitar el bloqueo de ip y la velocidad con digital Ocean o cualquier otro provedor, complementando con axiom para aumentar la velocidad de la tools asi mismo de las  herramientas integradas y el baneo por IP.
 <br>
