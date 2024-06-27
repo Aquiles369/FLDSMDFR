@@ -127,8 +127,8 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Mas Dorks al archivo de  google_html y en la terminal.<br>
 - Distintos Navegadores , distintos Dorks para mayor busqueda de informacion indexada.<br>
 - Mejorar busqueda en hackerone y las demas plataformas.<br>
-- Mayor recursividad en los dominios nuevos , encontrados y subdomonios.<br>
-- Automatizar la tool eliftool para buscar los metadatos de las imagenes pdf etc, extraidos del codigo fuente del target.<br>
+- Mayor recursividad en los dominios nuevos , ademas de los  encontrados.<br>
+- Automatizar la tool elixftool para buscar los metadatos de las imagenes pdf etc, extraidos del codigo fuente del target.<br>
 - Automatizar la tool de Email , comprobar si fueron  vulnerados esos correos.<br>
 - Automatizar la tools holehe para buscar cada correo en que sitio web se creo una cuenta con ese correo exactamente y en que sitios web.<br>
 - Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.<br>
