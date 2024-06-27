@@ -119,7 +119,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 <br>
 - :file_folder: "(=={¿Que  traerá la nueva version V2.0?}==)" :<br>
-- Las siguientes mejoras:<br>
+- Las siguientes mejoras son:<br>
 - Se agregara un menu de opciones que contiene 3 opciones para elegir , opcion numero 1 realizar escaneo completo Recon , Enumeracion y Explotacion .Opcion numero 2 realizar escaneo 
   de Recon unicamente , Opcion 3 realizar explotacion de vulnerabilidaes web y puertos tcp y udp expuesto etc.<br>
 - Mejorar la presentacion visual de los resultados , mostrados en la terminal.<br>
