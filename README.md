@@ -119,7 +119,10 @@ ______Cada tools ejecutadada ,  muestra el resultado
 <br>
 <br>
 - :file_folder: "(=={¿Que  traerá la nueva version V2.0?}==)" :<br>
-- Se agregara los siguientes temas:
+- Las siguientes mejoras:<br>
+- Se agregara un menu de opciones que contiene 3 opciones para elegir , opcion numero 1 realizar escaneo completo Recon , Enumeracion y Explotacion .Opcion numero 2 realizar escaneo 
+  de Recon unicamente , Opcion 3 realizar explotacion de vulnerabilidaes web y puertos tcp y udp expuesto etc.<br>
+- Mejorar la presentacion visual de los resultados , mostrados en la terminal.<br>
 - Alerta al finalizar el scrypt y los resultados de cada tools via discord.<br>
 - Mas Dorks al archivo de  google_html y en la terminal.<br>
 - Distintos Navegadores , distintos Dorks para mayor busqueda de informacion indexada.<br>
@@ -131,6 +134,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Automatizar la busqueda del ASN y pasar al amass en busca de mas subdomain.<br>
 - Agregar ID de seguimiento de Google Analytics para sacar mas dominios y subdomain que usen id.<br>
 - Agregar Registros de Internet Regionales ejemplo: Dependiendo del país en el que esté registrado un dominio (.com, .mx, .es, .uk, .ar,  etc.) será manejado por diferentes entes registrantes , esto sumaria y sacaria mas bloques de ip de ese dominio.<br>
+<br>
 
 ---Proximamente todo un en contenedor de Docker---
 <br><br>
