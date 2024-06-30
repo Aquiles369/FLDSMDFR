@@ -133,7 +133,7 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - Se agrega epieos busca por numero telefonico y por correo info.<br>
 - Mejorar la presentacion visual de los resultados , mostrados en la terminal.<br>
 - Alerta al finalizar el scrypt y los resultados de cada tools via discord.<br>
-- Mas Dorks al archivo de  google_html y en la terminal.<br>
+- Agregar , mas Dorks al archivo de  google_html y en la terminal , agregar mas Dorks enfocado al Osin tambien.<br>
 - Distintos Navegadores , distintos Dorks para mayor busqueda de informacion indexada.<br>
 - Mejorar busqueda en hackerone y las demas plataformas.<br>
 - Mayor recursividad en los dominios nuevos , ademas de los  encontrados.<br>
