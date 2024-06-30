@@ -124,6 +124,12 @@ ______Cada tools ejecutadada ,  muestra el resultado
   empresa , nombre del producto en caso que tenga uno la empresa , Recon  Enumeracion y Explotacion .Opcion numero 2 realizar escaneo 
   de Recon  te pedira unicamente 3 entradas el nombre del target y de la empresa y en caso que tenga un producto , Opcion 3 realizar la explotacion de las vulnerabilidaes web y 
   puertos tcp y udp expuesto etc , te pedira unicamente una entrada solo el nombre del target.<br>
+- Se agregara mechecheck , verifica en sitio web se regristro ese nombre de usario.<br>
+- Busca infor por numero de telefeno. <br>
+- Se mostrara las llamadas AJAX que hace el sitio web.<br>
+- Se agregara analizador de header de los correos para sacar mas info.<br>
+- Se agrega exposed , busca si tiene contraseñas filtradas de ese correo gratis.<br>
+- Se agrega epieos busca por numero telefonico y por correo info.<br>
 - Mejorar la presentacion visual de los resultados , mostrados en la terminal.<br>
 - Alerta al finalizar el scrypt y los resultados de cada tools via discord.<br>
 - Mas Dorks al archivo de  google_html y en la terminal.<br>
