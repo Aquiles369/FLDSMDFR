@@ -121,9 +121,9 @@ ______Cada tools ejecutadada ,  muestra el resultado
 - :file_folder: "(=={¿ Que  traerá la nueva version v2.0 ?}==)" :<br>
 - Las siguientes mejoras son:<br>
 - Se agregara un menu de opciones que contiene 3 opciones para elegir , opcion numero 1 realizar escaneo completo  te pedira las 3 entradas normales nombre del target , nombre de la 
-  empresa , nombre del producto en caso que tenga uno la empresa , Recon  Enumeracion y Explotacion .Opcion numero 2 realizar escaneo 
-  de Recon  te pedira unicamente 3 entradas el nombre del target y de la empresa y en caso que tenga un producto , Opcion 3 realizar la explotacion de las vulnerabilidaes web y 
-  puertos tcp y udp expuesto etc , te pedira unicamente una entrada solo el nombre del target.<br>
+  empresa , nombre del producto en caso que tenga uno la empresa , en esta primera opcion se realiza  Recon  Enumeracion Osin y Explotacion .Opcion numero 2 realizar escaneo 
+  de Recon Enuemracion y Osin te pedira unicamente 3 entradas el nombre del target y de la empresa y en caso que tenga un producto , Opcion 3 realizar la explotacion de las 
+  vulnerabilidaes web y puertos tcp y udp expuesto etc , te pedira unicamente una entrada solo el nombre del target.<br>
 - Se agregara namechechr , verifica en sitio web se regristro ese nombre de usario.<br>
 - Se agrega The Spy Job , verificador de canal de Youtube u mucho mas.<br>
 - Busca infor por numero de telefeno. <br>
