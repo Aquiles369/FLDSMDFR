@@ -121,8 +121,8 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - :file_folder: "(=={¿ Qué traerá la nueva versión v2.0?}==)":
 - Las siguientes mejoras son:<br>
 - Se agregara un menú de opciones que contiene 3 opciones para elegir, opción número 1 realizar escaneo completo te pedirá las 3 entradas normales nombre del target, nombre de la 
- empresa, nombre del producto en caso de que tenga uno la empresa, en esta primera opción se realiza Recon  Enumeración Osin y Explotacion. Opcion número 2 realizar escaneo 
- de Recon Enumeración y Osin te pedirá únicamente 3 entradas el nombre del target y de la empresa y en caso de que tenga un producto, Opción 3 realizar la explotación de las 
+ empresa, nombre del producto en caso de que tenga uno la empresa, en esta primera opción se realiza Recon  Enumeración Osint y Explotacion. Opcion número 2 realizar escaneo 
+ de Recon Enumeración y Osint te pedirá únicamente 3 entradas el nombre del target y de la empresa y en caso de que tenga un producto, Opción 3 realizar la explotación de las 
  vulnerabilidades web y puertos TCP y UDP expuesto etc., te pedirá únicamente una entrada solo el nombre del target.<br>
 - Se agregará namechechr, verifica en sitio web se registro ese nombre de usuario.<br>
 - Se agrega The Spy Job, verificador de canal de YouTube u mucho más.<br>
@@ -133,7 +133,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - Se agrega epieos busca por número telefónico y por correo info.<br>
 - Mejorar la presentacion visual de los resultados , mostrados en la terminal.<br>
 - Alerta al finalizar el scrypt y los resultados de cada tools via discord.<br>
-- Agregar , mas Dorks al archivo de  google_html y en la terminal , agregar mas Dorks enfocado al Osin tambien.<br>
+- Agregar , mas Dorks al archivo de  google_html y en la terminal , agregar mas Dorks enfocado al Osint tambien.<br>
 - Distintos Navegadores, distintos Dorks para mayor búsqueda de información indexada.<br>
 - Mejorar búsqueda en hackerone y las demás plataformas.<br>
 - Mayor recursividad en los dominios nuevos, además de los encontrados.<br>
