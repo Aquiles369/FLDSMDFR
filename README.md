@@ -47,7 +47,7 @@ Antes de todo mirar obligatoriamente superrecomendado nombre de la herramienta: 
  <h3>¿Qué ES LO QUE LE HACE ÚNICA EN SU CAMPO? </h3>
 <br>
 
-- :file_folder:Es única en su campo ya cuenta con más de 100 tools, todas en una sola herramienta trabajando conjuntamente entre sí, facilitando la automatización de diversas fases de Recon , Fuzzin , Explotación, teniendo en cuenta que se utiliza los mejores comandos para sacar el máximo potencial a cada tools, todo orientado al bug bounty , sabiendo esto también se tuvo en cuenta mandar las resquest menos posibles en diferentes tools , como nuclei , nucleiFuzzin  y muchas más a continuación se enumera las tools utilizadas en la herramienta (=={FLDSMDFR}==):<br>
+- :file_folder:Es única en su campo ya cuenta con más de 100 tools, todas en una sola herramienta trabajando conjuntamente entre sí, facilitando la automatización de diversas fases de Recon, Fuzzin, Explotación, teniendo en cuenta que se utiliza los mejores comandos para sacar el máximo potencial a cada tools, todo orientado al bug bounty, sabiendo esto también se tuvo en cuenta mandar las resquest menos posibles en diferentes tools, como nuclei, nucleiFuzzin y muchas más a continuación se enumera las tools utilizadas en la herramienta (=={FLDSMDFR}==):<br>
 <br>
 - #####################################		TOOLS UTILIZADAS	#######################################<br>
 
