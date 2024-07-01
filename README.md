@@ -123,7 +123,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 <br>
 <br>---------------------------------------------------------------------------------------------------------<br>
 - :file_folder: "(=={¿ Qué traerá la nueva versión v2.0?}==)":
-- <br>---------------------------------------------------------------------------------------------------------<br>
+<br>---------------------------------------------------------------------------------------------------------<br>
 - Las siguientes mejoras son:<br>
 - Se agregara un menú de opciones que contiene 3 opciones para elegir, opción número 1 realizar escaneo completo te pedirá las 3 entradas normales nombre del target, nombre de la 
  empresa, nombre del producto en caso de que tenga uno la empresa, en esta primera opción se realiza Recon  Enumeración Osint y Explotacion. Opcion número 2 realizar escaneo 
@@ -152,7 +152,6 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 <br>---------------------------------------------------------------------------------------------------------<br>
 ---Próximamente todo un en contenedor de Docker---
 <br>---------------------------------------------------------------------------------------------------------<br>
-<br><br>
 <br>---------------------------------------------------------------------------------------------------------<br>
 - Tips, Recomendaciones, Consejos:
 <br>---------------------------------------------------------------------------------------------------------<br>
