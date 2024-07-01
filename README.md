@@ -113,13 +113,17 @@ Antes de todo mirar obligatoriamente superrecomendado nombre de la herramienta: 
 
 <br>---------------------------------------------------------------------------------------------------------<br>
 ___TODAS LAS TOOLS MENCIONADAS GUARDAN SUS RESULTADOS EN EL DIRECTORIO ACTUAL EJEMPLO: resultados-$target____
+<br>---------------------------------------------------------------------------------------------------------<br>
+
 Todos los resultados se encuentran en esa carpeta contiene todos los archivos de todas las tools en formato".txt" cada tools que se ejecuta se aplica una limpieza, es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente con ese resultado, pasa a las además tools así sucesivamente.
 ______Cada tools QUE SE INICIE, muestra el resultado
 , además se recomienda descargar la Secretlist, y PayloadsALLthings-master_____<br>
 <br>
 <br>
 <br>
+<br>---------------------------------------------------------------------------------------------------------<br>
 - :file_folder: "(=={¿ Qué traerá la nueva versión v2.0?}==)":
+- <br>---------------------------------------------------------------------------------------------------------<br>
 - Las siguientes mejoras son:<br>
 - Se agregara un menú de opciones que contiene 3 opciones para elegir, opción número 1 realizar escaneo completo te pedirá las 3 entradas normales nombre del target, nombre de la 
  empresa, nombre del producto en caso de que tenga uno la empresa, en esta primera opción se realiza Recon  Enumeración Osint y Explotacion. Opcion número 2 realizar escaneo 
@@ -145,10 +149,13 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - Agregar ID de seguimiento de Google Analytics para sacar más dominios y subdominio que usen id.<br>
 - Agregar Registros de Internet Regionales ejemplo: Dependiendo del país en el que esté registrado un dominio (.com, .mx, .es, .uk, .ar, etc.) será manejado por diferentes entes registrantes, esto sumaria y sacaría más bloques de IP de ese dominio.<br>
 <br>
-
+<br>---------------------------------------------------------------------------------------------------------<br>
 ---Próximamente todo un en contenedor de Docker---
+<br>---------------------------------------------------------------------------------------------------------<br>
 <br><br>
+<br>---------------------------------------------------------------------------------------------------------<br>
 - Tips, Recomendaciones, Consejos:
+<br>---------------------------------------------------------------------------------------------------------<br>
 - Utilizar Proxychain para ir Iterando entre diferentes proxy, con Tor.
 - Se recomienda que se use en una VPS para evitar el bloqueo de ip y la velocidad con digital Ocean o cualquier otro proveedor, complementando con axiom para aumentar la velocidad de la tools así mismo de las herramientas integradas y el bloqueo por IP.
 <br>
