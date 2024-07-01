@@ -111,7 +111,7 @@ Antes de todo mirar obligatoriamente superrecomendado nombre de la herramienta: 
 - visualping:("ESTA POR DEFAUL DESACTIVADO EN ESTE SITIO WEB PUEDES SEGUIR LOS CAMBIOS QUE SE APLICAN A LA PÁGINA WEB Y TE AVISA POR CORREO, CUALQUIER CAMBIO MÍNIMO QUE SE APLICA A LA PÁGINA WEB…")<br>
 - linkedin:("INGRESAR CON TU CUENTA O CUENTA FALSA, BUSCA LA EMPRESA EN LinkedIn , LUEGO QUE ENCONTRÁS LA EMPRESA BUSCA A LOS DESARROLLADORES Y EXTRAE SU NOMBRE CON SU NOMBRE YA BUSCAR EN GIT HUB TOKEN, KEY, LINKIDADOS SUBDOMAIN ETC. POSIBLEMENTE ENCUENTRES ALGO.")<br>
 
-<br>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+<br>---------------------------------------------------------------------------------------------------------<br>
 ___TODAS LAS TOOLS MENCIONADAS GUARDAN SUS RESULTADOS EN EL DIRECTORIO ACTUAL EJEMPLO: resultados-$target____
 Todos los resultados se encuentran en esa carpeta contiene todos los archivos de todas las tools en formato".txt" cada tools que se ejecuta se aplica una limpieza, es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente con ese resultado, pasa a las además tools así sucesivamente.
 ______Cada tools QUE SE INICIE, muestra el resultado
