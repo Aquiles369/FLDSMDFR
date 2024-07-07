@@ -27,7 +27,7 @@ Antes de todo mirar obligatoriamente superrecomendado nombre de la herramienta: 
 - :file_folder: "(=={FLDSMDFR}==)" :
 - La FLDSMDFR es una herramienta única en su campo, ya que cuenta con más de"100"TOOLS.
 - Recopila una cantidad importante de información de distintas herramientas RECON_PASIVO Y ACTIVO, FUZZIN entre otras.
-- Todas estas herramientas juntas en una sola, posibilitando al Auditor la simplicidad y simplicidad de la automatización con (=={FLDSMDFR}==) "ahorrando tiempo"=="Productividad".
+- Todas estas herramientas juntas en una sola, posibilitando al Auditor la simplicidad de la automatización con (=={FLDSMDFR}==) "ahorrando tiempo"=="Productividad".
 - Solamente necesitarás 5 entradas, te pedirá :  <br> "1-ESCRIBIR TARGET"   "2-NOMBRE DE LA EMPRESA" "3-NOMBRE DEl PRODUCTO DE LA EMPRESA" "4-SE ABRIRÁ A FINAL DEL SCRIPT GOOGLE_DORKS.HTML INGRESAR TARGET" "5-SE ABRIRÁ BIG_BOUNTY_RECON INGRESAR TARGET 58 TOOLS CONTIENE" 
 - Probado en "kali Linux o Derivado de Debian"
 
@@ -115,7 +115,7 @@ Antes de todo mirar obligatoriamente superrecomendado nombre de la herramienta: 
 ___TODAS LAS TOOLS MENCIONADAS GUARDAN SUS RESULTADOS EN EL DIRECTORIO ACTUAL EJEMPLO: resultados-$target____
 <br>---------------------------------------------------------------------------------------------------------<br>
 
-Todos los resultados se encuentran en esa carpeta contiene todos los archivos de todas las tools en formato".txt" cada tools que se ejecuta se aplica una limpieza, es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente con ese resultado, pasa a las además tools así sucesivamente.
+Todos los resultados se encuentran en esa carpeta contiene todos los archivos de todas las tools en formato".txt" cada tools que se ejecuta se aplica una limpieza, es decir saca los duplicados y deja el archivo ya limpio del cual se utiliza posteriormente ese resultado pasa a las además tools así sucesivamente.
 ______Cada tools QUE SE INICIE, muestra el resultado
 , además se recomienda descargar la Secretlist, y PayloadsALLthings-master_____<br>
 <br>
