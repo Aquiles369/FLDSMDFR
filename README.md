@@ -125,6 +125,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - :file_folder: "(=={¿ Qué traerá la nueva versión v2.0?}==)":
 <br>---------------------------------------------------------------------------------------------------------<br>
 - Las siguientes mejoras son:<br>
+- Se agrega la simplicidad y variedad de bibliotecas de Python con la potencia de bash para aumentar la automatización de diversas Fases.<br>
 - Se agregara un menú de opciones que contiene 3 opciones para elegir, opción número 1 realizar escaneo completo te pedirá las 3 entradas normales nombre del target, nombre de la 
  empresa, nombre del producto en caso de que tenga uno la empresa, en esta primera opción se realiza Recon  Enumeración Osint y Explotacion. Opcion número 2 realizar escaneo 
  de Recon Enumeración y Osint te pedirá únicamente 3 entradas el nombre del target y de la empresa y en caso de que tenga un producto, Opción 3 realizar la explotación de las 
