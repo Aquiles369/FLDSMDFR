@@ -110,7 +110,6 @@ Antes de todo mirar obligatoriamente superrecomendado nombre de la herramienta: 
 - bigbountyRecon:("SE EJECUTA LA APLICACIÓN .EXE NECESITAS INSTALAR PREVIAMENTE WINE:I386 y MONO-COMPLETE PARA SU CORRECTO FUNCIONAMIENTO: INGRESAS EL TARGET Y TENES MÁS DE 58 TOOLS PARA DORKING")"PARA QUE NO SE HAGA MAS EXTENSO DE LO DEBIDO: TE DEJO EL LINK PARA VER QUE TOOLS ESTÁN EN ESTA HERRAMIENTA EN PALABRAS SIMPLES HACE UN DORKING DE VARIOS SITIOS WEB ETC LA AGREGÓ A ESTA TOOLS POR QUE VALE LA PENA TENER EN TU ARSENAL: bigbountyRecon https://github.com/Viralmaniar/BigBountyRecon "<br>
 - visualping:("ESTA POR DEFAUL DESACTIVADO EN ESTE SITIO WEB PUEDES SEGUIR LOS CAMBIOS QUE SE APLICAN A LA PÁGINA WEB Y TE AVISA POR CORREO, CUALQUIER CAMBIO MÍNIMO QUE SE APLICA A LA PÁGINA WEB…")<br>
 - linkedin:("INGRESAR CON TU CUENTA O CUENTA FALSA, BUSCA LA EMPRESA EN LinkedIn , LUEGO QUE ENCONTRÁS LA EMPRESA BUSCA A LOS DESARROLLADORES Y EXTRAE SU NOMBRE CON SU NOMBRE YA BUSCAR EN GIT HUB TOKEN, KEY, LINKIDADOS SUBDOMAIN ETC. POSIBLEMENTE ENCUENTRES ALGO.")<br>
-- waf-bypass.com: ("Bypass DE DIFERENTES PROVEEDOR WAFF TANTO DE GITHUB https://github.com/waf-bypass-maker/waf-community-bypasses Y EXTENSION EN BURP SUITE https://github.com/assetnote/nowafpls")
 <br>---------------------------------------------------------------------------------------------------------<br>
 ___TODAS LAS TOOLS MENCIONADAS GUARDAN SUS RESULTADOS EN EL DIRECTORIO ACTUAL EJEMPLO: resultados-$target____
 <br>---------------------------------------------------------------------------------------------------------<br>
@@ -149,6 +148,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - Automatizar la búsqueda del ASN y pasar al amass en busca de más subdominio.<br>
 - Agregar ID de seguimiento de Google Analytics para sacar más dominios y subdominio que usen id.<br>
 - Agregar Registros de Internet Regionales ejemplo: Dependiendo del país en el que esté registrado un dominio (.com, .mx, .es, .uk, .ar, etc.) será manejado por diferentes entes registrantes, esto sumaria y sacaría más bloques de IP de ese dominio.<br>
+- waf-bypass.com: ("Bypass DE DIFERENTES PROVEEDOR WAFF TANTO DE GITHUB https://github.com/waf-bypass-maker/waf-community-bypasses Y EXTENSION EN BURP SUITE https://github.com/assetnote/nowafpls")<br>
 <br>
 <br>---------------------------------------------------------------------------------------------------------<br>
 ---Próximamente todo un en contenedor de Docker---
