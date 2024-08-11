@@ -131,7 +131,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
  vulnerabilidades web y puertos TCP y UDP expuesto etc., te pedirá únicamente una entrada solo el nombre del target.<br>
 - Se agregará namechechr, verifica en sitio web se registro ese nombre de usuario.<br>
 - Se agrega The Spy Job, verificador de canal de YouTube u mucho más.<br>
-- Busca infor por número de teléfono. <br>
+- Buscar info por número de teléfono. <br>
 - Se mostrará las llamadas AJAX que hace el sitio web.<br>
 - Se agregará analizador de header de los correos para sacar más info.<br>
 - Se agrega exposed, busca si tiene contraseñas filtradas de ese correo gratis.<br>
@@ -149,6 +149,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - Agregar ID de seguimiento de Google Analytics para sacar más dominios y subdominio que usen id.<br>
 - Agregar Registros de Internet Regionales ejemplo: Dependiendo del país en el que esté registrado un dominio (.com, .mx, .es, .uk, .ar, etc.) será manejado por diferentes entes registrantes, esto sumaria y sacaría más bloques de IP de ese dominio.<br>
 - waf-bypass.com: ("Bypass DE DIFERENTES PROVEEDOR WAFF TANTO DE GITHUB https://github.com/waf-bypass-maker/waf-community-bypasses Y EXTENSION EN BURP SUITE https://github.com/assetnote/nowafpls")<br>
+- bbradar.io: ("Te muestra todos los programas nuevos de todas las plataformar muy bueno.")<br>
 <br>
 <br>---------------------------------------------------------------------------------------------------------<br>
 ---Próximamente todo un en contenedor de Docker---
@@ -156,7 +157,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 <br>---------------------------------------------------------------------------------------------------------<br>
 - Tips, Recomendaciones, Consejos:
 <br>---------------------------------------------------------------------------------------------------------<br>
-- Utilizar Proxychain para ir Iterando entre diferentes proxy, con Tor.
+- Utilizar Proxychain para ir Iterando entre diferentes proxy, con Tor.<br>
 - Se recomienda que se use en una VPS para evitar el bloqueo de ip y la velocidad con digital Ocean o cualquier otro proveedor, complementando con axiom para aumentar la velocidad de la tools así mismo de las herramientas integradas y el bloqueo por IP.
 <br>
 <h4> Licencia </h4>
