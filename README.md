@@ -51,7 +51,7 @@ Antes de todo mirar obligatoriamente superrecomendado nombre de la herramienta: 
 <br>
 - #####################################		TOOLS UTILIZADAS	#######################################<br>
 
-- viewdns.info:("SACA LA IP VERDADERA SI ES POSIBLE, INGRESAR AL LINK Y VER LA última IP ANTES DEL CAMBIO DE IP CON EL WAFF") <br>
+- viewdns.info:("SACA LA IP VERDADERA SI ES POSIBLE, INGRESAR AL LINK Y VER LA última IP ANTES DEL CAMBIO DE IP CON EL WAF") <br>
 - bgp.he.net:("TE MUESTRA LOS ASN , DEL TARGET PODES SACAR EL ASN Y LUEGO UTILIZARLO EN LA TOOLS amass posteriormente") <br>
 - wafw00f:("UTILIZA LA TOOLS PARA SACAR EL WAFF DEL TARGET")<br>
 - subzy:("COMPROBADOR DE VULNERABILIDADES DE ADQUISICIÓN DE SUBDOMINIO DEL TARGET Y DE LOS SUBDOMINIO VIVOS.")<br>
@@ -148,7 +148,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - Automatizar la búsqueda del ASN y pasar al amass en busca de más subdominio.<br>
 - Agregar ID de seguimiento de Google Analytics para sacar más dominios y subdominio que usen id.<br>
 - Agregar Registros de Internet Regionales ejemplo: Dependiendo del país en el que esté registrado un dominio (.com, .mx, .es, .uk, .ar, etc.) será manejado por diferentes entes registrantes, esto sumaria y sacaría más bloques de IP de ese dominio.<br>
-- waf-bypass.com: ("Bypass DE DIFERENTES PROVEEDOR WAFF TANTO DE GITHUB https://github.com/waf-bypass-maker/waf-community-bypasses Y EXTENSION EN BURP SUITE https://github.com/assetnote/nowafpls")<br>
+- waf-bypass.com: ("Bypass DE DIFERENTES PROVEEDOR WAF TANTO DE GIT HUB https://github.com/waf-bypass-maker/waf-community-bypasses Y EXTENSION EN BURP SUITE https://github.com/assetnote/nowafpls")<br>
 - bbradar.io: ("Te muestra todos los programas nuevos de todas las plataformas muy bueno.")<br>
 <br>
 <br>---------------------------------------------------------------------------------------------------------<br>
