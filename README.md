@@ -149,6 +149,7 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - Agregar ID de seguimiento de Google Analytics para sacar más dominios y subdominio que usen id.<br>
 - Agregar Registros de Internet Regionales ejemplo: Dependiendo del país en el que esté registrado un dominio (.com, .mx, .es, .uk, .ar, etc.) será manejado por diferentes entes registrantes, esto sumaria y sacaría más bloques de IP de ese dominio.<br>
 - waf-bypass.com: ("Bypass DE DIFERENTES PROVEEDOR WAF TANTO DE GIT HUB https://github.com/waf-bypass-maker/waf-community-bypasses Y EXTENSION EN BURP SUITE https://github.com/assetnote/nowafpls")<br>
+- IP rotativa: (Extension de ip rotativa, en  Burp Suite crear cuenta en aws )
 - bbradar.io: ("Te muestra todos los programas nuevos de todas las plataformas muy bueno.")<br>
 <br>
 <br>---------------------------------------------------------------------------------------------------------<br>
