@@ -161,6 +161,10 @@ ______Cada tools QUE SE INICIE, muestra el resultado
 - Utilizar Proxychain para ir Iterando entre diferentes proxy, con Tor.<br>
 - Se recomienda que se use en una VPS para evitar el bloqueo de ip y la velocidad con digital Ocean o cualquier otro proveedor, complementando con axiom para aumentar la velocidad de la tools así mismo de las herramientas integradas y el bloqueo por IP.
 <br>
+
+<h2>Descargo de responsabilidad</h2>
+
+Esta herramienta está destinada únicamente a fines educativos y de investigación. El autor y los colaboradores no son responsables del uso indebido de esta herramienta. Se recomienda a los usuarios que utilicen esta herramienta de manera responsable y solo en sistemas para los que tengan permiso explícito. El acceso no autorizado a sistemas, redes o datos es ilegal y poco ético. Obtenga siempre la autorización correspondiente antes de realizar cualquier tipo de actividad que pueda afectar a otros usuarios o sistemas.
 <h4> Licencia </h4>
 <p> 
 	MIT Public License v3.0 No puede usarse comercialmente 
